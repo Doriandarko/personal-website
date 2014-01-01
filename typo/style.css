@@ -1,0 +1,427 @@
+
+
+/* RESET CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+
+	font-size: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+/*END RESET*/
+
+
+/****************************/
+
+/*LAYOUT*/
+
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+/*Clearing parent*/
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.wrap {
+
+	width: 100%;
+}
+
+.first {
+
+}
+
+
+.second {
+	height: 21.875em;
+}
+
+/*.shadow {
+
+-moz-box-shadow:    0px 2px 0px 0px #e5e5e5;
+-webkit-box-shadow: 0px 2px 0px 0px #e5e5e5;
+box-shadow:         0px 2px 0px 0px #e5e5e5;
+}
+*/
+.span {
+	height: 18.75em;
+}
+
+.content {
+	max-width: 70em;
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+}
+
+hr {
+	margin: auto;
+border: 0;
+border-top: .071428571em solid #e7e7e7;
+border-bottom: .071428571em solid #ffffff;
+}
+
+.line {
+	width: 100%;
+	
+}
+
+
+div.unit.hcenter {
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+}
+
+
+.pad {
+
+	padding: 10px;
+}
+
+.unit {
+
+	
+	
+	float: left;
+	overflow: hidden;
+
+}
+
+.per-1 {
+	width: 10%;
+}
+
+
+.per-2 {
+	width: 20%;
+}
+
+.per-3
+{
+	width: 30%;
+}
+
+.per-4
+{
+	width: 40%;
+}
+
+.per-5 {
+
+	width: 50%;
+}
+
+
+
+.per-6 {
+
+	width: 60%;
+}
+
+.per-7 {
+
+	width: 70%;
+}
+
+.per-8 {
+
+	width: 80%;
+}
+
+.per-9 {
+
+	width: 90%;
+}
+
+.per-10 {
+
+	width: 100%;
+}
+
+
+
+/*[class*='per-']:last-of-type {
+  padding-right: 0;*/
+
+ul {
+	margin-top: 1.9375em;
+	margin-left: 17.550%;
+}
+ul li {
+	float: left;
+	margin-left: 30px;
+	height: 2em;
+	
+}
+
+ul li a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+	font-style: normal;
+	-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease ;
+-webkit-transition: all 0.3s ease ;
+}
+
+ul li a:hover {
+color: #FF483B;
+
+}
+
+img {
+	width: 100%;
+	height:auto;
+
+	border-radius: 4px;
+}
+
+
+
+/*TYPOGRAPGY*/
+
+.center {
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+	background: #29292d;
+}
+
+
+
+small {
+color: rgb(126, 126, 126);
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 400;
+font-size: 1.2em;
+
+margin-top: 2em;
+display: inline-block;
+
+}
+
+small ul {
+
+	margin-bottom: 1.4em;
+}
+
+#social {
+	color: white;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 400;
+font-size: 1em;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+h1 {
+font-size: 3em;
+font-family: 'Poly', serif;
+font-weight: 400;
+color: black;
+line-height: 1.25em;
+margin-top: 1.125em;
+padding-right: 5%;
+padding-left: 5%;
+
+
+}
+
+h2 {
+	font-size: 1.8em;
+font-family: 'Poly', serif;
+font-weight: 400;
+margin-top: 1.38888888888889em;
+margin-bottom:1.25em;
+line-height: 1.25em;
+font-style: italic;
+}
+
+h3 {
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+p {
+	font-size: 1.28em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	line-height: 1.4em;
+	margin-bottom: 1.9em;
+	color:rgb(77, 77, 77);
+}
+
+a {
+		font-size: 1.6em;
+font-family: 'Source Sans Pro', sans-serif;
+
+color: #FF483B;
+margin-top:2em;
+text-decoration: none;
+}
+
+p > a {
+	font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+
+}
+
+#contact {
+	margin-top: 1.4em;
+	margin-bottom: 1em;
+	color: black;
+}
+
+#button {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	margin-top: 0px;
+	padding-right: 60px;
+padding-top: 18px;
+padding-left: 60px;
+padding-bottom: 18px;
+border: #FF483B 3px solid;
+border-radius: 6px;
+font-size: 2.25em;
+margin-bottom: 1.8em;
+font-style: normal;
+
+
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease ;
+-webkit-transition: all 0.3s ease ;
+}
+
+#button:hover {
+
+
+background: #FF483B;
+
+-moz-box-shadow:    0px 2px 0px 0px #C32211;
+-webkit-box-shadow: 0px 2px 0px 0px #C32211;
+box-shadow:         0px 2px 0px 0px #C32211;
+color: white;
+
+}
+
+
+#button:active {
+
+background: #EE4A38;
+border: 0px solid #FF6150;
+-moz-box-shadow:    inset 0px 4px 0px 0px #C71E1B;
+-webkit-box-shadow: inset 0px 4px 0px 0px #C71E1B;
+box-shadow:         inset 0px 4px 0px 0px #C71E1B;
+}
+
+
+
+@media (min-width:1440px ) {
+	
+	body {
+		font-size: 110%;
+	}
+}
+
+
+@media (min-width:1920px ) {
+	
+	body {
+		font-size: 200%;
+	}
+}
+
+@media (max-width:768px ) {
+	
+	.per-1 {
+		display: none;
+	}
+
+	.per-4 {
+		width: 50%;
+	}
+}
+
+@media (max-width:500px ) {
+	
+
+	.per-4 {
+		width: 100%;
+	}
+
+	.per-2 {
+		width :5%;
+	}
+
+	.per-6 {
+		width: 90%;
+	}
+}
+

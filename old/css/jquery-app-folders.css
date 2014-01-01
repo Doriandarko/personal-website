@@ -1,0 +1,66 @@
+/* Example CSS - Feel free to change or delete if necessary. */
+.app-folders-container { width: 100%;
+	margin: 0 auto;}
+.jaf-container > div.folder { width: 19%; display: inline-block; text-align: center;
+	;
+}
+
+
+/* jQuery App Folders CSS - this is probably vital. Make additions as you please. */
+.jaf-container {
+	
+	position: relative;
+	padding: 0;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto; 
+	max-width: 1440px;
+	
+}
+.jaf-row {
+	zoom: 1;
+	max-width: 820px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Interior */
+.folderContent {
+	
+	position: absolute;
+		z-index: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		min-width: 320px;
+		padding: 20px 0 0 60px;
+		background-color: #efefef;
+		border: 1px solid rgba(0,0,0,0.3);
+		border-width: 1px 0;
+		margin-right: 0;
+		margin-left: 0;
+		left: 0;
+		right: 0;
+	}
+.clear {
+	clear: both;
+}
+
+
+.jaf-container > div.folder {
+		cursor: pointer;
+		width: 25%;
+		float: left;
+	}
+
+	img.app-icon {
+		margin-left: 0;
+		
+		div.iphone-positioner {
+			margin-top: 113px;
+			width: 100%;
+			left: 0;
+			right: 0;
+			position: absolute;
+		}
+		

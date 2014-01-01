@@ -1,0 +1,36 @@
+20131214T173940: www.pietroschirano.com/blog/index.php
+PHP Warning:  require(/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php): failed to open stream: No such file or directory in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+PHP Fatal error:  require(): Failed opening required '/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+
+20131214T173956: www.pietroschirano.com/blog/index.php
+PHP Warning:  require(/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php): failed to open stream: No such file or directory in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+PHP Fatal error:  require(): Failed opening required '/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+
+20131214T173959: www.pietroschirano.com/blog/index.php
+PHP Warning:  require(/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php): failed to open stream: No such file or directory in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+PHP Fatal error:  require(): Failed opening required '/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+
+20131214T173959: www.pietroschirano.com/blog/index.php
+PHP Warning:  require(/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php): failed to open stream: No such file or directory in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+PHP Fatal error:  require(): Failed opening required '/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+
+20131229T030418: pietroschirano.com/blog/index.php
+PHP Warning:  require(/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php): failed to open stream: No such file or directory in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+PHP Fatal error:  require(): Failed opening required '/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+
+20131229T030423: pietroschirano.com/blog/index.php
+PHP Warning:  require(/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php): failed to open stream: No such file or directory in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+PHP Fatal error:  require(): Failed opening required '/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+
+20131229T030425: pietroschirano.com/blog/index.php
+PHP Warning:  require(/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php): failed to open stream: No such file or directory in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+PHP Fatal error:  require(): Failed opening required '/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+
+20131229T030427: pietroschirano.com/blog/index.php
+PHP Warning:  require(/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php): failed to open stream: No such file or directory in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+PHP Fatal error:  require(): Failed opening required '/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+
+20131229T030429: pietroschirano.com/blog/index.php
+PHP Warning:  require(/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php): failed to open stream: No such file or directory in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+PHP Fatal error:  require(): Failed opening required '/hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-includes/load.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/waloraweb058/b1862/moo.pietroschiranocom/blog/wp-settings.php on line 21
+

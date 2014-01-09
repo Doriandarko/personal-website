@@ -1,0 +1,62 @@
+.theme div:nth-child(1) {
+color:grey;
+}
+
+.theme div:nth-child(2) {
+cursor:pointer;
+}
+
+hr {
+border-top:2px solid #C5C5C5;
+border-bottom:2px solid #fff;
+}
+
+nav a {
+color:#1F1F1F;
+}
+
+#social {
+margin-right:20px;
+margin-left:20px;
+color:#000;
+font-weight:400;
+font-size:1em;
+font-family:'Source Sans Pro', sans-serif;
+-webkit-transition:all .3s ease;
+-moz-transition:all .3s ease;
+-o-transition:all .3s ease;
+}
+
+#social:hover {
+color:#FF483B;
+}
+
+h1 {
+color:#2C2C2C;
+}
+
+h2 {
+color:#C2C2C2;
+}
+
+h2.space {
+color:rgba(53,53,53,0.75);
+}
+
+h3 {
+margin-top:1.5em;
+margin-bottom:2.5em;
+}
+
+p {
+color:#4d4d4d;
+}
+
+#contact {
+color:#000;
+}
+
+::selection,::-moz-selection {
+background:#FFED66;
+color:#FFF;
+}

@@ -511,6 +511,24 @@ color:#000;
 
 
 
+@media (width: 1024px) {
+
+.content2 {
+
+	max-width: 60%;
+
+}
+
+.content3 {
+
+	max-width: 60%;
+
+}
+
+}
+
+
+
 @media (min-width:1440px ) {
 	
 	body {

@@ -144,7 +144,7 @@ content:"";
 .head-image {
 position:relative;
 background-size:cover;
-min-height:23.125em;
+
 }
 
 a {
@@ -161,7 +161,7 @@ font-weight:400;
 font-size:3em;
 font-family:Poly, serif;
 line-height:1.5em;
-padding-bottom:.8em;
+padding-bottom:.3em;
 -moz-transition:all .3s ease;
 -ms-transition:all .3s ease;
 -o-transition:all .3s ease;
@@ -175,7 +175,7 @@ font-style:italic;
 font-size:1.8em;
 font-family:Poly, serif;
 line-height:1.25em;
-margin-bottom:1.25em;
+margin-bottom:0.8em;
 }
 
 h2.space {

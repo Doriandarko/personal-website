@@ -463,17 +463,6 @@ color:#FFF;
 
 /*Media Queries*/
 
-@media (max-width: 1279px) {
-
-	.content2 {
-		width: 60%;
-	}
-	
-		.content3 {
-		width: 60%;
-	}
-
-}
 
 
 @media (max-width: 768px) {
@@ -515,6 +504,15 @@ color:#000;
 
 		display: none;
 	}
+	
+	.content2 {
+		width: 60%;
+	}
+	
+		.content3 {
+		width: 60%;
+	}
+	
 }
 
 

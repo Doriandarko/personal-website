@@ -20,9 +20,9 @@ display:block;
 }
 
 body {
-line-height:1;
+line-height:1em;
 text-rendering:optimizeLegibility;
-font-size:18px;
+font-size:16px;
 	background: url(img/bg2.jpg) no-repeat;
 	background-size: 100% auto;
 }
@@ -281,14 +281,14 @@ max-width:73.75em;
 .content2 {
 margin-right:auto;
 margin-left:auto;
-max-width:60%;
+max-width:55%;
 border-top:2px red solid;
 }
 
 .content3 {
 margin-right:auto;
 margin-left:auto;
-max-width:60%;
+max-width:55%;
 border-top:2px solid #008FFF;
 border-bottom:2px red solid;
 }

@@ -23,7 +23,8 @@ body {
 line-height:1;
 text-rendering:optimizeLegibility;
 font-size:18px;
-	background-image: url(bg.jpg);
+	background-image: url(img/bg2.jpg) no-repeat;
+	background-size: 100% auto;
 }
 
 ol,ul {

@@ -67,7 +67,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 .top {
-	background: #1F30D1;
+	background: #313669;
 	height: 22.5em;
 	margin-right: 3.9375em;
 	margin-left: 3.9375em;
@@ -78,8 +78,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 
 @font-face {
-    font-family: TradeGothicLTPro;
-    src: url(font/TradeGothicLTPro.woff);
+    font-family: Brown-Regular;
+    src: url(font/Brown-Regular.woff.woff);
 }
 
 
@@ -100,7 +100,7 @@ h1 {
 h2 {
     font-size: 1.25em; /* 20 / 16 */
     line-height: 1.2em; /* 48 / 36 */
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Brown-Regular',sans-serif;
     margin-top: 1.5em;
     font-weight: 600;
     opacity: 0.8;
@@ -113,7 +113,7 @@ h6 {
     font-size: 0.75em; /* 12 / 16 */
     line-height: 2em; /* 24 / 16 */
     color: #3d464d;
-    font-family: 'TradeGothicLTPro', sans-serif;
+    font-family: 'Brown-Regular',sans-serif;
     margin-left: 5em;
 
  
@@ -123,9 +123,9 @@ p {
     line-height: 1.5em; /* 24 / 16 */
     margin-right: 3.9375em;
 	margin-left: 3.9375em;
-	margin-top: 1.6em;
+	margin-top: 3em;
 	color: #3d464d;
-	font-family: 'TradeGothicLTPro',sans-serif;
+	font-family: 'Brown-Regular',sans-serif;
  
 }
 
@@ -136,8 +136,13 @@ p {
 
 body {
 
-	background: #F7F7F7;
+	background: #E7E7E7;
 	font-size: 100%;
+}
+
+a {
+	 text-decoration: underline;
+	 color: #313669;
 }
 
 .abs {
@@ -198,3 +203,5 @@ margin-top: 4.5em;
 	margin-top: 1em;
 	margin-bottom: 3em;
 }
+
+

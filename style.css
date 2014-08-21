@@ -78,14 +78,14 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 
 h1 {
-    font-size: 14.875em; /* 238 / 16 */
+    font-size: 15.9375em; /* 238 / 16 */
     line-height: 1em; /* 238 / 238 */
     color: white;
     text-align: center;
     left:50%;
     margin-left:-1.5em;
     top: 10%;
-    font-family: 'PT Serif', serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 700;
    
 }

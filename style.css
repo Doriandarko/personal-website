@@ -77,6 +77,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 /*typo*/
 
 
+@font-face {
+    font-family: TradeGothicLTPro;
+    src: url(font/TradeGothicLTPro.woff);
+}
+
+
 h1 {
     font-size: 15.9375em; /* 238 / 16 */
     line-height: 1em; /* 238 / 238 */
@@ -107,7 +113,7 @@ h6 {
     font-size: 0.75em; /* 12 / 16 */
     line-height: 2em; /* 24 / 16 */
     color: #3d464d;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'TradeGothicLTPro', sans-serif;
     margin-left: 5em;
 
  
@@ -119,7 +125,7 @@ p {
 	margin-left: 3.9375em;
 	margin-top: 1.6em;
 	color: #3d464d;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'TradeGothicLTPro',sans-serif;
  
 }
 

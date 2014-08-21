@@ -83,8 +83,8 @@ h1 {
     color: white;
     text-align: center;
     left:50%;
-    margin-left:-1.5em;
-    top: 10%;
+    margin-left:-1.335em;
+    top: 0.26666666666667em;
     font-family: "Times New Roman", Times, serif;
     font-weight: 700;
    
@@ -130,7 +130,7 @@ p {
 
 body {
 
-	background: ghostwhite;
+	background: #F7F7F7;
 	font-size: 100%;
 }
 

@@ -333,6 +333,7 @@ top: 1.5em;
 body {
 
 	background-position: 40em 100em;
+	background-image: url("img/bg.jpg");
 }
 
 }
@@ -343,7 +344,7 @@ body {
 
 	background-image: url("img/bg.jpg");
 	font-size: 95%;
-	
+	background-size: cover;
 }
 
 .content  {

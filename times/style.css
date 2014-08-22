@@ -67,10 +67,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 .top {
-	
+	background: #313669;
 	height: 22.5em;
-	margin-right: 3.84375em;
-	margin-left: 3.84375em;
+	margin-right: 3.9375em;
+	margin-left: 3.9375em;
 }
 
 
@@ -78,23 +78,20 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 
 @font-face {
-
-    font-family: ArnoPro;
-    src: url('font/ArnoPro-SmbdSmText.woff')  format('woff');
+    font-family: Brown-Regular;
+    src: url(font/Brown-Regular.woff.woff);
 }
 
 
-
-
 h1 {
-    font-size: 14.625em; /* 238 / 16 */
+    font-size: 15.9375em; /* 238 / 16 */
     line-height: 1em; /* 238 / 238 */
     color: white;
     text-align: center;
     left:50%;
     margin-left:-1.335em;
     top: 0.26666666666667em;
-    font-family: "ArnoPro;", serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 700;
    
 }
@@ -124,10 +121,10 @@ h6 {
 p {
     font-size: 1em; /* 16 / 16 */
     line-height: 1.5em; /* 24 / 16 */
-    margin-right: 3.84375em;
-	margin-left: 3.84375em;
+    margin-right: 3.9375em;
+	margin-left: 3.9375em;
 	margin-top: 3em;
-	color: #fff;
+	color: #3d464d;
 	font-family: 'Brown-Regular',sans-serif;
  
 }
@@ -139,9 +136,8 @@ p {
 
 body {
 
-	background-image: url("img/bg.jpg");
+	background: #E7E7E7;
 	font-size: 100%;
-	background-position: center center;
 }
 
 a {

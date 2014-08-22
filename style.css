@@ -214,6 +214,8 @@ margin-top: 4.5em;
 	margin-bottom: 3em;
 }
 
+
+
 @media ( min-width:1920px) {
 
 body {
@@ -224,5 +226,30 @@ body {
 }
 
 
+}
+
+
+
+
+@media ( min-width:1920px) {
+
+body {
+
+	background-image: url("img/bg.jpg");
+	font-size: 100%;
+	background-position: 212.2em 125.9375em;
+}
+
+
+}
+
+@media ( max-width:1024px) {
+
+	body {
+
+	background-image: url("img/bg.jpg");
+	font-size: 100%;
+	background-position: 164.125em 125.9375em;
+}
 }
 

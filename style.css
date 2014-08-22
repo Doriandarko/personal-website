@@ -147,8 +147,9 @@ body {
 
 	background-image: url("img/bg.jpg");
 	font-size: 100%;
-	background-position: 177.125em 125.9375em;
+	/*background-position: 177.125em 125.9375em;*/
 	text-rendering: optimizeLegibility;
+	background-size: cover;
 }
 
 a {
@@ -223,7 +224,7 @@ body {
 
 	background-image: url("img/bg.jpg");
 	font-size: 100%;
-	background-position: 192.2em 125.9375em;
+	/*background-position: 192.2em 125.9375em;*/
 }
 
 
@@ -235,7 +236,7 @@ body {
 
 	background-image: url("img/bg.jpg");
 	font-size: 100%;
-	background-position: 212.2em 125.9375em;
+	/*background-position: 212.2em 125.9375em;*/
 }
 
 
@@ -254,7 +255,7 @@ body {
 
 	background-image: url("img/bg.jpg");
 	font-size: 100%;
-	background-position: 212.2em 125.9375em;
+	/*background-position: 212.2em 125.9375em;*/
 }
 
 
@@ -332,8 +333,9 @@ top: 1.5em;
 
 body {
 
-	background-position: center center;
-	background-image: url("img/bg-ipad2.jpg");
+	/*background-position: center center;*/
+	background-size: cover;
+	background-image: url("img/bg-ipad3.jpg");
 }
 
 }
@@ -342,9 +344,10 @@ body {
 
 	body {
 
-	background-image: url("img/bg-ipad2.jpg");
+	background-image: url("img/bg-ipad3.jpg");
 	font-size: 95%;
-	background-position: center center;
+	/*background-position: center center;*/
+	background-size: cover;
 }
 
 .content  {

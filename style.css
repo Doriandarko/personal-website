@@ -93,12 +93,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 
 h1 {
-    font-size: 14.5em; /* 238 / 16 */
+    font-size: 14.65em; /* 238 / 16 */
     line-height: 1em; /* 238 / 238 */
     color: white;
     text-align: center;
     left:50%;
-    margin-left:-1.26em;
+    margin-left:-1.24em;
     top: 0.55em;
     font-family: "ArnoPro", serif;
   

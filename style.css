@@ -223,11 +223,27 @@ body {
 
 	background-image: url("img/bg.jpg");
 	font-size: 100%;
+	background-position: 192.2em 125.9375em;
+}
+
+
+}
+
+@media ( min-width:2560px) {
+
+body {
+
+	background-image: url("img/bg.jpg");
+	font-size: 100%;
 	background-position: 212.2em 125.9375em;
 }
 
 
 }
+
+
+
+background-position: 212.2em 125.9375em;
 
 
 
@@ -249,19 +265,85 @@ body {
 	body {
 
 	background-image: url("img/bg.jpg");
-	font-size: 100%;
+	font-size: 112.5%;
 	background-position: 164.125em 125.9375em;
 }
 }
 
 
-@media ( max-width:768px) {
+
+@media ( max-width: 600px) {
+
+	#none {
+		display: none;
+	}
+
+body {
+	font-size: 110%;
+}
+
+.size6of8{width:100%;}
+
+
+
+.content {
+	width: 17.77777777777778em;
+}
+
+.divider {
+
+	margin-right: 0;
+margin-left: 0;
+}
+
+p {margin-right: 0;
+margin-left: 0;
+margin-top: 0;}
+
+.top {
+	margin-right: 0;
+margin-left: 0;
+}
+
+ul li {
+	margin-left: 0.79em;
+}
+
+ul li:first-child {
+
+	margin-left: 0.79em;
+}
+
+.profile {
+
+	margin-left: 0;
+}
+
+h1 {
+
+	font-size: 6.80em;
+line-height: 1em;
+
+text-align: center;
+left: 50%;
+margin-left: -1.25em;
+top: 1.5em;
+}
+
+body {
+
+	background-position: 40em 100em;
+}
+
+}
+
+@media  (min-width: 601px) and ( max-width:768px) {
 
 	body {
 
 	background-image: url("img/bg.jpg");
 	font-size: 95%;
-	background-size: cover;
+	
 }
 
 .content  {
@@ -276,4 +358,6 @@ margin-left: 4.125em;
 
 
 }
+
+
 

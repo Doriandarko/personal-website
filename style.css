@@ -148,6 +148,7 @@ body {
 	background-image: url("img/bg.jpg");
 	font-size: 100%;
 	background-position: 177.125em 125.9375em;
+	text-rendering: optimizeLegibility;
 }
 
 a {
@@ -251,5 +252,28 @@ body {
 	font-size: 100%;
 	background-position: 164.125em 125.9375em;
 }
+}
+
+
+@media ( max-width:768px) {
+
+	body {
+
+	background-image: url("img/bg.jpg");
+	font-size: 95%;
+	background-position: 164.125em 125.9375em;
+}
+
+.content  {
+
+	width: 50em;
+	
+}
+
+ul li:first-child {
+margin-left: 4.125em;
+}
+
+
 }
 

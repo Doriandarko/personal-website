@@ -261,7 +261,7 @@ body {
 
 	background-image: url("img/bg.jpg");
 	font-size: 95%;
-	background-position: cover cover;
+	background-size: cover;
 }
 
 .content  {

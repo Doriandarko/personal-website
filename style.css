@@ -90,31 +90,69 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     src: url('font/ArnoPro-SmbdSmText.woff')  format('woff');
 }
 
+@font-face {
+  
+
+  font-family: brandonR;
+  src: url('font/BrandonGrotesque-Regular.woff') format('woff') ;
+
+}
+
+
+@font-face {
+  
+
+  font-family: brandonM;
+  src: url('font/BrandonGrotesque-Medium.woff') format('woff') ;
+
+}
+
+
 
 
 h1 {
     font-size: 14.65em; /* 238 / 16 */
     line-height: 1em; /* 238 / 238 */
     color: white;
-    text-align: center;
-    left:50%;
-    margin-left:-1.24em;
-    top: 0.55em;
+   
     font-family: "ArnoPro", serif;
   
    
+}
+
+h4 {
+
+font-size: 1.25em; /* 20 / 16 */
+    line-height: 1.2em; /* 48 / 36 */
+    font-family: 'brandonM',sans-serif;
+   margin-top: 0.9em;
+    font-weight: 600;
+  
+    color: #fff;
+
 }
 
 
 h2 {
     font-size: 1.25em; /* 20 / 16 */
     line-height: 1.2em; /* 48 / 36 */
-    font-family: 'Brown-Regular',sans-serif;
+    font-family: 'brandonM',sans-serif;
     margin-top: 1.5em;
-    font-weight: 600;
+   
     opacity: 0.8;
     color: #fff;
   
+}
+
+h3  {
+
+     font-size: 2.6175em;
+     line-height:1.71919770773639em;
+     font-family: 'brandonR',sans-serif;
+     color: #fff;
+
+
+
 }
 
 
@@ -122,20 +160,26 @@ h6 {
     font-size: 0.75em; /* 12 / 16 */
     line-height: 2em; /* 24 / 16 */
     color: #3d464d;
-    font-family: 'Brown-Regular',sans-serif;
+    font-family: 'brandonR',sans-serif;
     margin-left: 5em;
 
  
 }
 p {
-    font-size: 1em; /* 16 / 16 */
+    font-size: 1.125em; /* 16 / 16 */
     line-height: 1.5em; /* 24 / 16 */
-    margin-right: 3.84375em;
+    
+	
+	color: #fff;
+	font-family: 'brandonR',sans-serif;
+ 
+}
+
+p.about {
+
+	margin-right: 3.84375em;
 	margin-left: 3.84375em;
 	margin-top: 1.8em;
-	color: #fff;
-	font-family: 'Brown-Regular',sans-serif;
- 
 }
 
 
@@ -152,6 +196,18 @@ body {
 	background-size: cover;
 }
 
+
+body.about {
+
+	background-image: url("img/bg2.jpg");
+}
+
+.leftabout {
+
+	height: 36.0625em;
+	color: yellow;
+}
+
 a {
 	 text-decoration: none;
 	 color: #FFD06E;
@@ -160,6 +216,19 @@ a {
 .abs {
 
 	position: absolute;
+	 text-align: center;
+    left:50%;
+    margin-left:-1.24em;
+    top: 0.66em;
+}
+
+.abs-contact {
+
+	position: absolute;
+	 text-align: center;
+    left:50%;
+    margin-left:-1.6em;
+    top: 0.55em;
 }
 
 .center {
@@ -206,6 +275,14 @@ height: 1px;
 background: #D0D2D4;
 margin-right: 3.9375em;
 margin-left: 3.9375em;
+margin-top: 4.5em;
+
+}
+.divider-contact {
+
+height: 1px;
+background: #D0D2D4;
+
 margin-top: 4.5em;
 
 }
@@ -257,6 +334,7 @@ body {
 	font-size: 100%;
 	/*background-position: 212.2em 125.9375em;*/
 }
+
 
 
 }

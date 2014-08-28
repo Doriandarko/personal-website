@@ -166,7 +166,7 @@ p.about {
 
 	margin-right: 3.84375em;
 	margin-left: 3.84375em;
-	margin-top: 1.8em;
+	margin-top: 0.5em;
 }
 
 
@@ -202,8 +202,8 @@ a {
 	position: absolute;
 	 text-align: center;
     left:50%;
-    margin-left:-1.6em;
-    top: 1.66em;
+    margin-left: -1.32em;
+    top: 1.60em;
 }
 
 .abs-contact {

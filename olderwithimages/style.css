@@ -76,41 +76,59 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 /*typo*/
 
-body {
-	font-size: 100%;
+
+@font-face {
+
+    font-family: Brown-Regular;
+    src: url('font/Brown-Regular.woff')  format('woff');
 }
 
 
 @font-face {
 
-    font-family: Calendas;
-    src: url('font/Calendas-Plus.woff')  format('woff');
+    font-family:ArnoPro;
+    src: url('font/ArnoPro-SmbdSmText.woff')  format('woff');
+}
+
+@font-face {
+  
+
+  font-family: brandonR;
+  src: url('font/BrandonGrotesque-Regular.woff') format('woff') ;
+
+}
+
+
+@font-face {
+  
+
+  font-family: brandonM;
+  src: url('font/BrandonGrotesque-Medium.woff') format('woff') ;
+
 }
 
 
 
 
-
-
 h1 {
-    font-size: 7em; /* 238 / 16 */
+    font-size: 14.65em; /* 238 / 16 */
     line-height: 1em; /* 238 / 238 */
-    color: #404850;
+    color: white;
    
-    font-family: "Calendas", serif;
+    font-family: "ArnoPro", serif;
   
    
 }
 
 h4 {
 
-font-size: 0.75em; /* 20 / 16 */
-    line-height: 2em; /* 48 / 36 */
-    font-family: 'Calendas',sans-serif;
-   margin-top: 1.66666666666667em;
+font-size: 1.25em; /* 20 / 16 */
+    line-height: 1.2em; /* 48 / 36 */
+    font-family: 'brandonM',sans-serif;
+   margin-top: 0.9em;
     font-weight: 600;
   
-    color: #404850;
+    color: #fff;
 
 }
 
@@ -118,47 +136,42 @@ font-size: 0.75em; /* 20 / 16 */
 h2 {
     font-size: 1.25em; /* 20 / 16 */
     line-height: 1.2em; /* 48 / 36 */
-    font-family: 'Calendas',sans-serif;
+    font-family: 'brandonM',sans-serif;
     margin-top: 1.5em;
    
     opacity: 0.8;
-    color:#404850;
+    color: #fff;
   
 }
 
 h3  {
 
-     font-size: 1.5em;
-     line-height:1.33333333333333em;
-     font-family: 'Calendas',sans-serif;
-     color: #404850;
+     font-size: 2.6175em;
+     line-height:1.71919770773639em;
+     font-family: 'brandonR',sans-serif;
+     color: #fff;
 
 
 
-}
-
-h3.middle {
-
-	margin-top: 1.66666666666667em;
 }
 
 
 h6 {
     font-size: 0.75em; /* 12 / 16 */
     line-height: 2em; /* 24 / 16 */
-    color: #404850;
-    font-family: 'Calendas',sans-serif;
+    color: #3d464d;
+    font-family: 'brandonR',sans-serif;
     margin-left: 5em;
 
  
 }
 p {
-    font-size: 1em; /* 16 / 16 */
+    font-size: 1.125em; /* 16 / 16 */
     line-height: 1.5em; /* 24 / 16 */
     
 	
-	color: #596672;
-	font-family: 'Calendas',sans-serif;
+	color: #fff;
+	font-family: 'brandonR',sans-serif;
  
 }
 
@@ -176,15 +189,18 @@ p.about {
 
 body {
 
-	
+	background-image: url("img/bg.jpg");
 	font-size: 100%;
 	/*background-position: 177.125em 125.9375em;*/
 	text-rendering: optimizeLegibility;
-
+	background-size: cover;
 }
 
 
+body.about {
 
+	background-image: url("img/bg2.jpg");
+}
 
 .leftabout {
 
@@ -193,8 +209,8 @@ body {
 }
 
 a {
-	
-	 color: #404850;
+	 text-decoration: none;
+	 color: #FFD06E;
 }
 
 .abs {
@@ -202,8 +218,8 @@ a {
 	position: absolute;
 	 text-align: center;
     left:50%;
-    margin-left:-1.6em;
-    top: 1.66em;
+    margin-left:-1.24em;
+    top: 0.66em;
 }
 
 .abs-contact {
@@ -211,8 +227,8 @@ a {
 	position: absolute;
 	 text-align: center;
     left:50%;
-    margin-left:-1.7em;
-    top: 1.66em;
+    margin-left:-1.6em;
+    top: 0.55em;
 }
 
 .center {
@@ -232,7 +248,7 @@ ul li {
 }
 
 ul li:first-child {
-   margin-left: 15em
+   margin-left: 10.625em
 }
 
 .float {float: left;}
@@ -240,10 +256,10 @@ ul li:first-child {
 .profile {
 
 	margin-top: 1.125em;
-	
+	margin-left: 1.25em;
 }
 
-.image {
+.img {
 	
 	margin-right: 3.9375em;
 	margin-left: 3.9375em;
@@ -256,8 +272,7 @@ ul li:first-child {
 .divider {
 
 height: 1px;
-background: #404850;
-opacity: 0.5;
+background: #D0D2D4;
 margin-right: 3.9375em;
 margin-left: 3.9375em;
 margin-top: 4.5em;
@@ -284,7 +299,7 @@ margin-top: 4.5em;
 
 body {
 
-	
+	background-image: url("img/bg.jpg");
 	font-size: 100%;
 	/*background-position: 192.2em 125.9375em;*/
 }
@@ -296,7 +311,7 @@ body {
 
 body {
 
-	
+	background-image: url("img/bg.jpg");
 	font-size: 100%;
 	/*background-position: 212.2em 125.9375em;*/
 }
@@ -315,7 +330,7 @@ background-position: 212.2em 125.9375em;
 
 body {
 
-
+	background-image: url("img/bg.jpg");
 	font-size: 100%;
 	/*background-position: 212.2em 125.9375em;*/
 }
@@ -328,7 +343,7 @@ body {
 
 	body {
 
-
+	background-image: url("img/bg-ipad3.jpg");
 	font-size: 112.5%;
 	background-size: cover;
 }
@@ -385,21 +400,20 @@ ul li:first-child {
 
 h1 {
 
-	font-size: 7em;
+	font-size: 6.80em;
 line-height: 1em;
 
 text-align: center;
 left: 50%;
 margin-left: -1.25em;
-top: 1.66em;
-opacity: 0.9;
+top: 1.5em;
 }
 
 body {
 
 	/*background-position: center center;*/
 	background-size: cover;
-
+	background-image: url("img/bg-ipad3.jpg");
 }
 
 }
@@ -408,7 +422,7 @@ body {
 
 	body {
 
-	
+	background-image: url("img/bg-ipad3.jpg");
 	font-size: 95%;
 	/*background-position: center center;*/
 	background-size: cover;

@@ -316,7 +316,7 @@ background-position: 212.2em 125.9375em;
 body {
 
 
-	font-size: 100%;
+	font-size: 112.5%;
 	/*background-position: 212.2em 125.9375em;*/
 }
 
@@ -326,12 +326,7 @@ body {
 
 @media ( max-width:1024px) {
 
-	body {
 
-
-	font-size: 112.5%;
-	background-size: cover;
-}
 }
 
 

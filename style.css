@@ -107,8 +107,8 @@ h4 {
 font-size: 0.75em; /* 20 / 16 */
     line-height: 2em; /* 48 / 36 */
     font-family: 'Calendas',sans-serif;
-   margin-top: 1.66666666666667em;
-    font-weight: 600;
+   margin-top: 3em;
+   
   
     color: #404850;
 
@@ -211,7 +211,7 @@ a {
 	position: absolute;
 	 text-align: center;
     left:50%;
-    margin-left:-1.7em;
+    margin-left:-1.76em;
     top: 0.5em;
 }
 

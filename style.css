@@ -212,10 +212,6 @@ a:hover {
 	color: #17B161;
 }
 
-a:visited {
-
-	color: #17B161;
-}
 
 div.top a {
 
@@ -224,6 +220,12 @@ div.top a {
 }
 
 div.top a:hover{
+
+	color: #17B161;
+
+}
+
+div.top a:visited {
 
 	color: #17B161;
 

@@ -143,6 +143,16 @@ h3.middle {
 }
 
 
+h5 {
+
+font-size: 2.8125em;
+     line-height:1.06666666666667em;
+     font-family: 'Calendas',sans-serif;
+     color: #404850;
+
+}
+
+
 h6 {
     font-size: 0.75em; /* 12 / 16 */
     line-height: 2em; /* 24 / 16 */
@@ -272,10 +282,60 @@ margin-top: 4.5em;
 
 }
 
+.divider-work {
+
+height: 1px;
+background: #D0D2D4;
+
+margin-top: 6em;
+margin-left: 3.90625em;
+margin-right: 3.90625em;
+
+}
+
 .footer  p {
 
 	margin-top: 1em;
 	margin-bottom: 3em;
+}
+
+
+
+
+/*WORK PAGE */
+
+.tag {
+
+	width: 18.4375em;
+	position: relative;
+    top: -2.3em;
+
+}
+
+.wrap {
+
+	width: 100%;
+	background-color: #F8F8F8;
+}
+
+.blockmargin {
+
+	margin-top: 6em;
+	margin-left: 3.90625em;
+}
+
+.bigshow {
+
+width: 33.375em;
+height: auto;
+margin-left: 0.3125em;
+
+
+}
+
+.endingmargin {
+
+	margin-bottom: 6em;
 }
 
 

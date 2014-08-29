@@ -207,6 +207,29 @@ a {
 	 color: #404850;
 }
 
+a:hover {
+
+	color: #17B161;
+}
+
+a:visited {
+
+	color: #17B161;
+}
+
+div.top a {
+
+	color: #404850;
+	text-decoration: none;
+}
+
+div.top a:hover{
+
+	color: #17B161;
+
+}
+
+
 .abs {
 
 	position: absolute;

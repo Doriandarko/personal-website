@@ -324,6 +324,12 @@ margin-right: 3.90625em;
 	margin-left: 3.90625em;
 }
 
+.last-blockmargin {
+
+	margin-top: 2.73em;
+	margin-left: 3.90625em;
+}
+
 .bigshow {
 
 width: 33.375em;
@@ -333,9 +339,36 @@ margin-left: 0.3125em;
 
 }
 
+.bigshow-flip {
+
+width: 33.375em;
+height: auto;
+
+
+
+
+}
+
 .endingmargin {
 
 	margin-bottom: 6em;
+}
+
+.smallimages {
+
+	width: 14.6875em;
+	margin-right: 3.814em;
+}
+
+.smallimages-flip {
+
+	width: 14.6875em;
+	margin-left: 3.814em;
+}
+
+.last-image{
+
+ margin-top:2.73em;
 }
 
 

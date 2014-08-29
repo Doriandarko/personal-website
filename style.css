@@ -371,6 +371,12 @@ height: auto;
  margin-top:2.73em;
 }
 
+.small {
+ width: 14.6875em;
+ height: auto;
+
+}
+
 
 
 @media ( min-width:1920px) {

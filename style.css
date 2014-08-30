@@ -327,7 +327,7 @@ margin-right: 3.90625em;
 
 .tag {
 
-	width: 18.4375em;
+	width: 17.5em;
 	position: relative;
     top: -2.3em;
 
@@ -347,13 +347,13 @@ margin-right: 3.90625em;
 
 .last-blockmargin {
 
-	margin-top: 2.73em;
+	margin-top: 1.125em;
 	margin-left: 3.90625em;
 }
 
 .bigshow {
 
-width: 33.375em;
+width: 34.375em;
 height: auto;
 margin-left: 0.3125em;
 
@@ -362,7 +362,7 @@ margin-left: 0.3125em;
 
 .bigshow-flip {
 
-width: 33.375em;
+width: 34.375em;
 height: auto;
 
 
@@ -377,23 +377,24 @@ height: auto;
 
 .smallimages {
 
-	width: 14.6875em;
-	margin-right: 3.814em;
+	width: 16.34375em;
+	margin-right: 1.15em;
+	
 }
 
 .smallimages-flip {
 
-	width: 14.6875em;
-	margin-left: 3.814em;
+	width: 16.34375em;
+	margin-left: 1.15em;
 }
 
 .last-image{
 
- margin-top:2.73em;
+ margin-top:0.98em;
 }
 
 .small {
- width: 14.6875em;
+ width: 16.34375em;
  height: auto;
 
 }

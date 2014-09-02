@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet" href="style.css" type="text" />
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+<title>Things Chloe Park says</title>
+
+
+
+
+</head>
+
+<div class="topbar">
+
+<h2>Developed with idiocy by <a href="http://www.pietroschirano.com">Pietro</a> </h2>
+
+</div>
+
+<body class="fade" id="back",  onclick="changeQuote()" , ontouchstart="changeQuote()", onclick="changeColor()" >
+
+<script type="text/javascript">
+
+
+
+var quoteIndex = 0;
+var quotes = [
+
+    "Too much work to do.",
+    
+    "I don't want to work on my presentation.",
+    
+    "I am eating so much.",
+    
+    "I am on a diet.",
+
+    "I wish there were more leftovers...",
+    
+    "We need more color.",
+    
+    "Sharing the fries? I bought two...",
+    
+    "Cause when you want to get drunk, you just get drunk.",
+    
+    "Korean people have an higher Alcohol tolerance.",
+    
+    "Asian people are so more efficient.",
+    
+    "Do you like this jacket? I am probably gonna return it.",
+
+    "Look how young I was.",
+
+    "Look how beautiful I was.",
+
+    "Everyone wants a bit of my time.",
+
+    "They didnt set you up for success, they set you up for failure.",
+
+    "I just like efficency you know.",
+    
+    "Which one is better,this picture or this one?",
+
+    "See?? So fast. Asian!",
+
+    "There is Koja today.",
+    
+    "I wish I had a black wall.",
+    
+    "Light is everything.",
+    
+    "I still have to buy my flight ticket.",
+    
+    "No. You can't meet any of my girlfriends.",
+    
+    "I use to have a social life.",
+    
+    "I am going to a design meetup.",
+
+    "I wish I vined that.",
+
+    "Oh my GOD...Is an android user?!",
+    
+    "Ohhh...I see."
+];
+function changeQuote() {
+    ++quoteIndex;
+    if (quoteIndex >= quotes.length) {
+        quoteIndex = 0;
+    }
+    document.getElementById("theQuote").innerHTML = quotes[quoteIndex];
+}
+</script>
+
+<div class="content">
+    
+<h1 id="theQuote">Too much work to do.</h1>
+
+<p class="fade">Click or touch anywhere for another one</p>
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

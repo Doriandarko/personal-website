@@ -1,0 +1,165 @@
+@-webkit-keyframes fade {
+  0%, 100% {
+    background-color: #e95545; }
+
+  12.5% {
+    background-color: #924ead; }
+
+  25% {
+    background-color: #63b6d2; }
+
+  37.5% {
+    background-color: #76d78b; }
+
+  50% {
+    background-color: #dadc36; }
+
+  62.5% {
+    background-color: #fedb31; }
+
+  75% {
+    background-color: #fb9e2f; }
+
+  87.5% {
+    background-color: #f17239; }
+
+  100% {
+    background-color: #e95546; } }
+@-moz-keyframes fade {
+  0%, 100% {
+    background-color: #e95545; }
+
+  12.5% {
+    background-color: #924ead; }
+
+  25% {
+    background-color: #63b6d2; }
+
+  37.5% {
+    background-color: #76d78b; }
+
+  50% {
+    background-color: #dadc36; }
+
+  62.5% {
+    background-color: #fedb31; }
+
+  75% {
+    background-color: #fb9e2f; }
+
+  87.5% {
+    background-color: #f17239; }
+
+  100% {
+    background-color: #e95546; } }
+@keyframes fade {
+  0%, 100% {
+    background-color: #e95545; }
+
+  12.5% {
+    background-color: #924ead; }
+
+  25% {
+    background-color: #63b6d2; }
+
+  37.5% {
+    background-color: #76d78b; }
+
+  50% {
+    background-color: #dadc36; }
+
+  62.5% {
+    background-color: #fedb31; }
+
+  75% {
+    background-color: #fb9e2f; }
+
+  87.5% {
+    background-color: #f17239; }
+
+  100% {
+    background-color: #e95546; } }
+
+body.fade {
+  -webkit-animation: fade 15s ease-out infinite; }
+
+body {
+	
+height: 100%;
+	padding-top: 200px;
+  overflow: hidden;
+  margin: 0;
+       
+
+}
+
+@font-face {
+
+    font-family: Apercu;
+    src: url('font/apercu.ttf')  format('ttf');
+}
+
+@font-face  {
+
+    font-family: Didot;
+    src:url('DOHE.ttf') format('ttf');
+}
+
+
+.content {
+
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ a {
+ 	color: #2ecc71;
+ 	text-decoration: none;
+ }
+
+
+h2{
+	color: #fff;
+	font: 14px 'Apercu', sans-serif;
+}
+
+
+
+
+
+h1 {
+	font: 34px 'Didot', serif;
+		color:#2c3e50;
+		width: 80%;
+		margin-bottom: 10px;
+		margin-left: 10%;
+		margin-right: 0;
+    font-weight: 300;
+    line-height: 44px;
+	}
+	
+	
+	p{
+		
+		font: 20px 'Apercu', sans-serif;
+		color: white;
+		margin-left: 10%;
+    
+    opacity: 0.6;
+    line-height: 36px;
+
+	}
+	
+	
+div.topbar{
+	left: 0;
+	
+	width: 96%;
+	padding: 30px 2%;
+	text-align: right;
+	background: #34495e;
+	color: white;
+	position: absolute;
+	bottom: 0;
+}

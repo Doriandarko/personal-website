@@ -69,6 +69,28 @@ img {
 	height: auto;
 }
 
+.block {
+
+	position: relative;
+}
+
+.block-on-hover {
+
+	position: absolute;
+	top: 0;
+	bottom: 0.25em;
+	left: 0;
+	right:0;
+	background-color: #202020;
+	opacity: 0;
+}
+
+.block-on-hover:hover {
+
+	opacity: 1;
+}
+
+
 .margin-top{
 
 	margin-top: 13.33333333333333em;
@@ -76,7 +98,7 @@ img {
 
 .margin-image {
 
-	margin-top: 1.5625em;
+	margin-top: 1.3125em;
 }
 
 .contacts {
@@ -114,12 +136,14 @@ body {
 h1 {
     font-size: 1.51687502861023em; /* 24.270 / 16 */
     line-height: 1em; /* 238 / 238 */
-    margin-bottom: 5.1503913326056em;
+    margin-bottom: 5.1503913326056em;   
+}
 
-   
-    
-  
-   
+h6 {
+
+	font-size: 0.75em;
+	line-height: 2.08333333333333em;
+	margin-left: 0.625em;
 }
 
 
@@ -143,7 +167,22 @@ a:hover {
 	color: #17B161;
 }
 
+a.linkOnImage {
 
+	color: #fff;
+}
+
+
+/*TRANSICTION */
+
+.block-on-hover:hover {
+
+-webkit-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+     -o-transition: all .5s ease;
+        transition: all .5s ease;
+}
 
 /*MEDIA QUERIES */
 

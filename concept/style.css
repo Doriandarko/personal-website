@@ -76,7 +76,12 @@ img {
 
 .margin-image {
 
-	margin-top: 12.5em;
+	margin-top: 1.5625em;
+}
+
+.contacts {
+
+	margin-top: 6.25em;
 }
 
 .footer {
@@ -91,7 +96,7 @@ body {
 	font-size: 100%;
 	color: #596672;
 	font-family: apercu;
-	background-color: #E1E1E1;
+	background-color: #DCDCDC;
 }
 
 
@@ -136,6 +141,18 @@ a {
 a:hover {
 
 	color: #17B161;
+}
+
+
+
+/*MEDIA QUERIES */
+
+@media (min-width: 1920px) {
+
+	body {
+
+		font-size: 130%;
+	}
 }
 
 

@@ -69,20 +69,35 @@ img {
 	height: auto;
 }
 
+.margin-top{
+
+	margin-top: 13.33333333333333em;
+}
+
+.margin-image {
+
+	margin-top: 12.5em;
+}
+
+.footer {
+
+	margin-top: 6.66666666666667em;
+}
+
 
 /*typo*/
 
 body {
 	font-size: 100%;
 	color: #596672;
-	font-family: "apercu-rs", sans-serif;
-	background-color: E1E1E1;
+	font-family: apercu;
+	background-color: #E1E1E1;
 }
 
 
 @font-face {
 
-    font-family: apercu-r;
+    font-family: apercu;
     src: url('font/apercu-r.ttf')  format('ttf');
 }
 
@@ -94,6 +109,7 @@ body {
 h1 {
     font-size: 1.51687502861023em; /* 24.270 / 16 */
     line-height: 1em; /* 238 / 238 */
+    margin-bottom: 5.1503913326056em;
 
    
     

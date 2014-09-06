@@ -1,0 +1,132 @@
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	border:0;
+	vertical-align:baseline;
+	font:inherit;
+	font-size:100%;
+	margin:0;
+	padding:0;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+
+.cf:after,
+.cf:before {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1;
+}
+
+
+
+/* GRID SISTEM */
+
+
+.lastUnit{overflow:hidden;float:none;width:auto;padding-left:0.625em;padding-right:0.625em}
+.unit{overflow:hidden;float:left;padding-left:0.625em;padding-right:0.625em}
+.size8of8{width:100%}
+.size7of8{width:87.5%}
+.size6of8{width:75%}
+.size5of8{width:62.5%}
+.size4of8{width:50%}
+.size3of8{width:37.5%}
+.size2of8{width:25%}
+.size1of8{width:12.5%}
+.size4of4{width:100%}
+.size3of4{width:75%}
+.size2of4{width:50%}
+.size1of4{width:25%}
+.size2of2{width:100%}
+.size1of2{width:50%}
+.size3of3{width:100%}
+.size2of3{width:66.66666666666666%}
+.size1of3{width:33.33333333333333%}
+.size1of1{width:100%}
+
+.content  {
+
+	width: 68em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img {
+	width: 100%; 
+	height: auto;
+}
+
+
+/*typo*/
+
+body {
+	font-size: 100%;
+	color: #596672;
+	font-family: "apercu-rs", sans-serif;
+	background-color: E1E1E1;
+}
+
+
+@font-face {
+
+    font-family: apercu-r;
+    src: url('font/apercu-r.ttf')  format('ttf');
+}
+
+
+
+
+
+
+h1 {
+    font-size: 1.51687502861023em; /* 24.270 / 16 */
+    line-height: 1em; /* 238 / 238 */
+
+   
+    
+  
+   
+}
+
+
+p {
+    font-size: 0.9375em; /* 15 / 16 */
+    line-height: 1.66666666666667em; /* 24 / 16 */
+}
+
+
+
+
+
+
+a {
+	
+	 color: #404850;
+}
+
+a:hover {
+
+	color: #17B161;
+}
+
+
+
+
+
+
+
+
+

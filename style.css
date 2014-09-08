@@ -195,6 +195,31 @@ a.linkOnImage {
 }
 
 
+@media (min-width: 768px) {
+
+	body {
+
+		font-size: 110%;
+	}
+
+	.content {
+
+        width: 48em;
+
+	}
+
+	.size4of8 {
+
+		width: 100%;
+	}
+
+   .size2of8 {
+
+		width: 50%;
+	}
+
+}
+
 
 
 

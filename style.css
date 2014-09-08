@@ -202,9 +202,16 @@ a.linkOnImage {
 		font-size: 110%;
 	}
 
+	.contacts {
+
+	margin-top: 6.25em;
+	position: absolute;
+}
+
+
 	.content {
 
-        width: 48em;
+        width: 45em;
 
 	}
 

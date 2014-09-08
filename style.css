@@ -104,6 +104,7 @@ img {
 .contacts {
 
 	margin-top: 6.25em;
+	list-style-type: none;
 }
 
 .footer {

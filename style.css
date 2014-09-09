@@ -113,6 +113,12 @@ img {
 	margin-top: 6.66666666666667em;
 }
 
+br.toAppear {
+
+display: none;
+
+}
+
 
 /*typo*/
 
@@ -212,13 +218,19 @@ a.linkOnImage {
 	right:0;
 }
 
+br.toAppear {
+
+display: inline;
+
+}
+
 .margin-top {
 margin-top: 1.5em;
 }
 
  p.toHide {
 
- 	visibility: hidden;
+ 	display: none;
  }
 
 

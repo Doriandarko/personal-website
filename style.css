@@ -268,7 +268,24 @@ margin-top: 1.5em;
 }
 
 
-@media ( max-width: 600px) {
+@media ( max-width: 640px) {
+
+
+	.content {
+
+        width: 30em;
+
+	}
+
+	.size2of8 {
+
+		width: 100%;
+	}
+
+
+}
+
+@media ( max-width: 320px) {
 
 
 	.content {
@@ -277,10 +294,6 @@ margin-top: 1.5em;
 
 	}
 
-	.size2of8 {
-
-		width: 100%;
-	}
 
 
 }

@@ -113,17 +113,13 @@ img {
 	margin-top: 6.66666666666667em;
 }
 
-p.toAppear {
+.toAppear {
 
 display: none;
 
 }
 
-br.toAppear {
 
-display: none;
-
-}
 
 
 /*typo*/

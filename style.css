@@ -216,6 +216,11 @@ a.linkOnImage {
 margin-top: 1.5em;
 }
 
+ p.toHide {
+
+ 	visibility: hidden;
+ }
+
 
 	.content {
 

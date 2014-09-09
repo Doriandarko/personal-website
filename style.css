@@ -219,7 +219,7 @@ margin-top: 1.5em;
 
 	.content {
 
-        width: 40em;
+        width: 48em;
 
 	}
 
@@ -232,6 +232,19 @@ margin-top: 1.5em;
 
 		width: 50%;
 	}
+
+}
+
+
+@media ( max-width: 768px) {
+
+
+	.content {
+
+        width: 40em;
+
+	}
+
 
 }
 

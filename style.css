@@ -113,7 +113,13 @@ img {
 	margin-top: 6.66666666666667em;
 }
 
-.toAppear {
+p.toAppear {
+
+display: none;
+
+}
+
+br.toAppear {
 
 display: none;
 

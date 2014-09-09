@@ -303,6 +303,19 @@ margin-top: 1.5em;
 
 	.content {
 
+        width: 21em;
+
+	}
+
+
+
+}
+
+@media ( max-width: 320px) {
+
+
+	.content {
+
         width: 16em;
 
 	}

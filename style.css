@@ -285,6 +285,19 @@ margin-top: 1.5em;
 
 }
 
+
+@media ( max-width: 480px) {
+
+
+	.content {
+
+        width: 24em;
+
+	}
+
+
+}
+
 @media ( max-width: 320px) {
 
 

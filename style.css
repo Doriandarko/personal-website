@@ -33,6 +33,71 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 
 
+/*COLOR EXPSERIMENT*/
+
+@-webkit-keyframes fade {
+  0%, 100% {
+    background-color: aliceblue; }
+
+
+  25% {
+    background-color: honeydew; }
+
+
+  50% {
+    background-color: seashell; }
+
+  75% {
+    background-color: floralwhite; }
+
+
+  100% {
+    background-color: aliceblue; } 
+
+}
+@-moz-keyframes fade {
+   0%, 100% {
+    background-color: aliceblue; }
+
+
+  25% {
+    background-color: honeydew; }
+
+
+  50% {
+    background-color: seashell; }
+
+  75% {
+    background-color: floralwhite; }
+
+
+  100% {
+    background-color: aliceblue; }  }
+@keyframes fade {
+  0%, 100% {
+    background-color: aliceblue; }
+
+
+  25% {
+    background-color: honeydew; }
+
+
+  50% {
+    background-color: seashell; }
+
+  75% {
+    background-color: floralwhite; }
+
+
+  100% {
+    background-color: aliceblue; }  }
+
+body.fade {
+  -webkit-animation: fade 15s ease-out infinite; }
+
+
+
+
 /* GRID SISTEM */
 
 
@@ -128,7 +193,6 @@ body {
 	font-size: 100%;
 	color: #404850;
 	font-family: apercu;
-	background-color: seashell;
 }
 
 

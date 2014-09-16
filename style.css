@@ -93,7 +93,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     background-color: aliceblue; }  }
 
 body.fade {
-  -webkit-animation: fade 15s ease-out infinite; }
+  -webkit-animation: fade 30s ease-out infinite; }
 
 
 

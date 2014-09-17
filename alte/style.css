@@ -194,6 +194,7 @@ body {
 	color: #404850;
 	/*font-family: apercu;*/
 	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
     
 }
 

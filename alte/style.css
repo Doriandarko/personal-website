@@ -193,7 +193,7 @@ body {
 	font-size: 100%;
 	color: #404850;
 	/*font-family: apercu;*/
-    font-family: "futura-pt",sans-serif;
+    
 }
 
 
@@ -203,15 +203,27 @@ body {
     src: url('font/Apercu-Regular.woff')  format('woff');
 }
 
+@font-face {
+
+    font-family: tiempos;
+    src: url('font/Tiempos.woff')  format('woff');
+}
+
+@font-face {
+
+    font-family: arnopro;
+    src: url('font/ArnoPro-SB.woff')  format('woff');
+}
 
 
 
 
 
 h1 {
-    font-size: 1.51687502861023em; /* 24.270 / 16 */
+    font-size: 2.125em; /* 24.270 / 16 */
     line-height: 1em; /* 238 / 238 */
-    margin-bottom: 5.1503913326056em;   
+    margin-bottom: 5.1503913326056em;
+    font-family: "arnopro",serif;   
 }
 
 h6 {
@@ -219,12 +231,14 @@ h6 {
 	font-size: 0.75em;
 	line-height: 2.08333333333333em;
 	margin-left: 0.625em;
+	font-family: "futura-pt",sans-serif;
 }
 
 
 p {
     font-size: 1.125em; /* 15 / 16 */
     line-height: 1.61111111111111em; /* 24 / 16 */
+    font-family: "futura-pt",sans-serif;
 }
 
 

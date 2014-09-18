@@ -124,7 +124,7 @@ body.fade {
 
 .content  {
 
-	width: 76.25em;
+	width: 84em;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
@@ -159,7 +159,7 @@ img {
 
 .margin-top{
 
-	margin-top: 11.1em;
+	margin-top: 11.368em;
 }
 
 .margin-image {
@@ -185,6 +185,12 @@ img {
 
 display: none;
 
+}
+
+.underImage {
+
+	position: relative;
+    top: -5px;
 }
 
 
@@ -236,7 +242,7 @@ body {
 h1 {
     font-size: 2.8125em; /* 45 / 16 */
     line-height: 1em; /* 238 / 238 */
-    margin-bottom: 0.49em;
+    margin-bottom:0.46em;
     font-family: "larish",serif;
     position: relative;
     top: -1.14705882352941em;   

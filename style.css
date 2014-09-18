@@ -101,8 +101,8 @@ body.fade {
 /* GRID SISTEM */
 
 
-.lastUnit{overflow:hidden;float:none;width:auto;padding-left:0.625em;padding-right:0.625em}
-.unit{overflow:hidden;float:left;padding-left:0.625em;padding-right:0.625em}
+.lastUnit{overflow:hidden;float:none;width:auto;padding-left:0.875em;padding-right:0.875em}
+.unit{overflow:hidden;float:left;padding-left:0.875em;padding-right:0.875em}
 .size8of8{width:100%}
 .size7of8{width:87.5%}
 .size6of8{width:75%}
@@ -124,7 +124,7 @@ body.fade {
 
 .content  {
 
-	width: 68em;
+	width: 76.25em;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
@@ -159,18 +159,21 @@ img {
 
 .margin-top{
 
-	margin-top: 13.33333333333333em;
+	margin-top: 11.1em;
 }
 
 .margin-image {
 
-	margin-top: 1.3125em;
+	margin-top: 0.9em;
 }
 
 .contacts {
 
-	margin-top: 6.25em;
+	margin-top: 6.05em;
 	list-style-type: none;
+	position: relative;
+    top: -0.8125em;
+
 }
 
 .footer {
@@ -192,8 +195,10 @@ display: none;
 body {
 	font-size: 100%;
 	color: #404850;
-	font-family: apercu;
-/*    font-family: "futura-pt",sans-serif;*/
+	/*font-family: apercu;*/
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+    
 }
 
 
@@ -203,15 +208,29 @@ body {
     src: url('font/Apercu-Regular.woff')  format('woff');
 }
 
+@font-face {
+
+    font-family: tiempos;
+    src: url('font/Tiempos.woff')  format('woff');
+}
+
+@font-face {
+
+    font-family: arnopro;
+    src: url('font/ArnoPro-SB.woff')  format('woff');
+}
 
 
 
 
 
 h1 {
-    font-size: 1.51687502861023em; /* 24.270 / 16 */
+    font-size: 2.125em; /* 24.270 / 16 */
     line-height: 1em; /* 238 / 238 */
-    margin-bottom: 5.1503913326056em;   
+    margin-bottom: 1.9em;
+    font-family: "arnopro",serif;
+    position: relative;
+    top: -1.14705882352941em;   
 }
 
 h6 {
@@ -219,12 +238,14 @@ h6 {
 	font-size: 0.75em;
 	line-height: 2.08333333333333em;
 	margin-left: 0.625em;
+	font-family: "futura-pt",sans-serif;
 }
 
 
 p {
-    font-size: 0.9375em; /* 15 / 16 */
-    line-height: 1.66666666666667em; /* 24 / 16 */
+    font-size: 1.125em; /* 15 / 16 */
+    line-height: 1.69em; /* 24 / 16 */
+    font-family: "futura-pt",sans-serif;
 }
 
 

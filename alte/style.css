@@ -225,7 +225,9 @@ h1 {
     font-size: 2.125em; /* 24.270 / 16 */
     line-height: 1em; /* 238 / 238 */
     margin-bottom: 1.9em;
-    font-family: "arnopro",serif;   
+    font-family: "arnopro",serif;
+    position: relative;
+    top: -1.14705882352941em;   
 }
 
 h6 {

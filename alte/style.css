@@ -124,7 +124,7 @@ body.fade {
 
 .content  {
 
-	width: 76.25em;
+	width: 84em;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
@@ -196,8 +196,9 @@ body {
 	font-size: 100%;
 	color: #404850;
 	/*font-family: apercu;*/
-	-webkit-font-smoothing: antialiased;
+	/*-webkit-font-smoothing: antialiased;*/
 	text-rendering: optimizeLegibility;
+	etter-spacing: 0.06px;
     
 }
 
@@ -243,7 +244,7 @@ h1 {
 
 h6 {
 
-	font-size: 0.75em;
+	font-size: 0.9375em;
 	line-height: 2.08333333333333em;
 	margin-left: 0.625em;
 	font-family: "futura-pt",sans-serif;
@@ -415,9 +416,24 @@ margin-top: 1.5em;
 
 	.content {
 
-        width: 16em;
+        width: 18em;
 
 	}
+
+h1 {
+font-size: 2em;
+
+margin-bottom: 2.49em;
+
+}
+
+.contacts {
+position: absolute;
+right: 0.8em;
+
+}
+
+
 
 
 

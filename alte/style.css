@@ -210,6 +210,14 @@ body {
 
 @font-face {
 
+    font-family: larish;
+    src: url('font/LarishNeue.woff')  format('woff');
+}
+
+
+
+@font-face {
+
     font-family: tiempos;
     src: url('font/Tiempos.woff')  format('woff');
 }
@@ -225,10 +233,10 @@ body {
 
 
 h1 {
-    font-size: 2.125em; /* 24.270 / 16 */
+    font-size: 2.8125em; /* 45 / 16 */
     line-height: 1em; /* 238 / 238 */
     margin-bottom: 1.9em;
-    font-family: "arnopro",serif;
+    font-family: "larish",serif;
     position: relative;
     top: -1.14705882352941em;   
 }

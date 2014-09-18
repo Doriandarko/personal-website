@@ -171,6 +171,9 @@ img {
 
 	margin-top: 6.05em;
 	list-style-type: none;
+	position: relative;
+    top: -0.8125em;
+
 }
 
 .footer {

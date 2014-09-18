@@ -416,7 +416,7 @@ margin-top: 1.5em;
 
 	.content {
 
-        width: 16em;
+        width: 18em;
 
 	}
 
@@ -424,6 +424,12 @@ h1 {
 font-size: 2em;
 
 margin-bottom: 2.49em;
+
+}
+
+.contacts {
+position: absolute;
+right: 0.8em;
 
 }
 

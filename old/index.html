@@ -6,35 +6,45 @@
         <title>Enter Password</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="author" href="humans.txt">
+        <style type="text/css">
+
+        body {
+
+            background: #Da3743;
+        }
+
+        h1{
+
+            color: #fff;
+            text-align: center;
+            font-family: helvetica;
+            position: relative;
+            top: 6em;
+        }
+
+        form {
+
+            position: absolute;
+   top: 50%;
+   left: 50%;
+ 
+   margin-top: -50px; /* Half the height */
+   margin-left: -60px; /* Half the width */
+
+        }
+   
+        </style>
     </head>
     <body>
+
+    <h1>OpenTable Branding</h1>
        
-<script>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "letmein") {
-alert('You Got it Right!');
-window.open('protectpage.html');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</script>
-<ceter>
+<script>function passWord(){var testV=1;var pass1=prompt('Please Enter Your Password',' ');while(testV<3){if(!pass1)history.go(-1);if(pass1.toLowerCase()=="otr2015"){alert('You Got it Right!');window.open('about.html');break}testV+=1;var pass1=prompt('Access Denied - Password Incorrect, Please Try Again.','Password')}if(pass1.toLowerCase()!="password"&testV==3)history.go(-1);return" "}</script>
+
 <form>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
+<input type="button" value="Enter Confidential Area" onClick="passWord()">
 </form>
-</center>
+
 
 
     </body>

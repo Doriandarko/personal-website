@@ -147,7 +147,7 @@ font-size: 1.0625em;
 font-weight: 400;
 color: #559EBE;
 padding-bottom: 1.83em;
-border: 2px solid blue;
+border-bottom: 2px solid transparent;
 
 }
 

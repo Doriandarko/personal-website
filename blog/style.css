@@ -1,0 +1,283 @@
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	border:0;
+	vertical-align:baseline;
+	font:inherit;
+	font-size:100%;
+	margin:0;
+	padding:0;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+
+.cf:after,
+.cf:before {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1;
+}
+
+
+
+
+
+
+/* GRID SISTEM */
+
+
+.lastUnit{overflow:hidden;float:none;width:auto;padding-left:15px;padding-right:15px}
+.unit{overflow:hidden;float:left;padding-left:15px;padding-right:15px}
+.size6of6{width:100%}
+.size4of6{width: 66.666666666667%}
+.size3of6{width: 50%}
+.size2of6{width: 33.333333333333%}
+.size1of6{width: 16.666666666667%}
+
+
+
+.main-box {
+
+	width: 77.5em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.logo {
+	width: 45px;
+	margin-top: 3.5em;
+
+
+
+}
+
+
+img {
+	width: 100%; 
+	height: auto;
+}
+
+a {
+
+	text-decoration: none;
+	color: #333333;
+}
+
+a: over {
+
+color: red;
+
+}
+
+.a-center{
+
+margin: 0 auto;
+
+}
+
+.t-center {
+
+	text-align: center;
+}
+
+ul {
+
+	list-style-type: none;
+
+}
+
+.header {
+position: relative;
+}
+
+.title {
+
+	margin-bottom: 1.75em;
+}
+
+.navigation-line{
+
+
+left: 0;
+right: 0;
+height: 1px;
+background: #EAEAEA;
+position: absolute;
+top: 13em;
+
+}
+
+
+.navigation {
+
+	width: 38em;
+	margin-bottom: 5.17em;
+}
+
+.pagination {
+
+	width: 100%;
+	margin-top: 8.75em;
+}
+
+.description {
+
+	padding-top: 1em;
+}
+
+.navigation ul li {
+
+float: left;
+margin-left: 3.125em;
+font-size: 1.0625em;
+font-weight: 400;
+color: #559EBE;
+padding-bottom: 1.83em;
+border: 2px solid blue;
+
+}
+
+.navigation ul li : hover {
+
+border: 2px solid red;
+
+}
+
+.footer {
+
+
+margin-top: 8.75em;
+margin-bottom: 5.25em;
+
+}
+
+
+.pagination ul li:first-child {
+
+	margin-left:30.5em;
+}
+
+.pagination ul li:last-child {
+
+	margin-left:20em;
+}
+
+.footer ul li {
+
+float: left;
+margin-left: 1.625em;
+font-size: 0.9375em;
+font-weight: 400;
+color: #B4B4B4;
+padding-top: 1.75em;
+
+}
+
+.footer ul li:first-child {
+
+	margin-left:0;
+}
+
+
+.divider {
+
+width: 100%;
+height: 1px;
+background: #EAEAEA;
+
+}
+
+
+
+.article {
+
+position: relative;
+
+}
+
+
+/*.ontop : hover {
+
+	background-color: red;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+*/
+
+
+.article-row {
+
+	margin-top: 5.25em;
+}
+
+
+/*typo*/
+
+body {
+	font-size: 100%;
+	text-rendering: optimizeLegibility;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+}
+
+
+h1 {
+
+  font-size: 2.25em;
+  font-weight: 400;
+
+}
+
+h2 {
+
+    font-size: 1.375em;
+
+}
+
+h3 {
+
+	font-size: 1.1875em;
+	font-weight: 400;
+    color: #969696;
+}
+
+
+small {
+
+	font-size: 0.875em;
+	color: #DA3743;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -60,6 +60,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 .logo {
 	width: 45px;
 	margin-top: 3.5em;
+	float: left;
 
 
 
@@ -77,11 +78,13 @@ a {
 	color: #333333;
 }
 
-a: over {
+a:hover {
 
-color: red;
+color: #da3743;
 
 }
+
+
 
 .a-center{
 
@@ -106,7 +109,11 @@ position: relative;
 
 .title {
 
-	margin-bottom: 1.75em;
+width: 12.5625em;
+margin-bottom: 1.75em;
+margin-top: 3.5em;
+margin-left: 28.7em;
+float: left;
 }
 
 .navigation-line{
@@ -117,7 +124,8 @@ right: 0;
 height: 1px;
 background: #EAEAEA;
 position: absolute;
-top: 13em;
+top: 10.3em;
+z-index: -10;
 
 }
 
@@ -136,10 +144,52 @@ top: 13em;
 
 .description {
 
-	padding-top: 1em;
+	padding-top: 1.25em;
 }
 
+
+/*.navigation ul a li:first-child {
+
+	margin-left:0em;
+}*/
+
 .navigation ul li {
+
+float: left;
+margin-left: 3.125em;
+font-size: 1.0625em;
+font-weight: 400;
+color: #559EBE;
+padding-bottom: 1.90em;
+border-bottom: 2px solid transparent;
+-webkit-transition: border-bottom-color .25s ease;
+   -moz-transition: border-bottom-color .25s ease;
+    -ms-transition: border-bottom-color .25s ease;
+     -o-transition: border-bottom-color .25s ease;
+        transition: border-bottom-color .25s ease;
+
+}
+
+/*.navigation ul li:first-child {
+
+	margin-left:0;
+}*/
+
+.navigation ul li:hover {
+
+border-bottom-color: #559EBE;
+
+}
+
+.footer {
+
+
+margin-top: 8.75em;
+margin-bottom: 5.25em;
+
+}
+
+.pagination ul li {
 
 float: left;
 margin-left: 3.125em;
@@ -151,17 +201,9 @@ border-bottom: 2px solid transparent;
 
 }
 
-.navigation ul li : hover {
+.pagination ul li : hover {
 
 border: 2px solid red;
-
-}
-
-.footer {
-
-
-margin-top: 8.75em;
-margin-bottom: 5.25em;
 
 }
 
@@ -235,6 +277,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font-family: 'Source Sans Pro', sans-serif;
 	position: relative;
+	-webkit-font-smoothing:antialiased;
 }
 
 

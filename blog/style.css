@@ -39,8 +39,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 /* GRID SISTEM */
 
 
-.lastUnit{overflow:hidden;float:none;width:auto;padding-left:15px;padding-right:15px}
-.unit{overflow:hidden;float:left;padding-left:15px;padding-right:15px}
+.lastUnit{overflow:hidden;float:none;width:auto;padding-left:0.9375em;padding-right:0.9375em}
+.unit{overflow:hidden;float:left;padding-left:0.9375em;padding-right:0.9375em}
 .size6of6{width:100%}
 .size4of6{width: 66.666666666667%}
 .size3of6{width: 50%}
@@ -58,7 +58,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 
 .logo {
-	width: 45px;
+	width: 2.8125em;
 	margin-top: 3.5em;
 	float: left;
 
@@ -307,6 +307,18 @@ small {
 	font-size: 0.875em;
 	color: #DA3743;
 	font-weight: 700;
+}
+
+
+
+/*Starting media queries */
+
+@media (min-width: 1920px) {
+
+	body {
+
+		font-size: 130%;
+	}
 }
 
 

@@ -48,6 +48,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 .size1of6{width: 16.666666666667%}
 
 
+/* LAYOUT */
+
 
 .main-box {
 
@@ -62,14 +64,17 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	margin-top: 3.5em;
 	float: left;
 
-
-
 }
 
 
 img {
 	width: 100%; 
 	height: auto;
+}
+
+.article-preview {
+	width: 23.9375em; 
+	height: 15.125em;
 }
 
 a {
@@ -83,7 +88,6 @@ a:hover {
 color: #da3743;
 
 }
-
 
 
 .a-center{
@@ -169,6 +173,32 @@ border-bottom: 2px solid transparent;
         transition: border-bottom-color .25s ease;
 
 }
+
+
+.side-menu ul li {
+
+    font-size: 0.875em;
+	color: #666666;
+	font-weight: 700;
+	margin-top: 2.5em;
+
+}
+
+.side-menu ul li:first-child {
+margin-top: 0em;
+
+}
+
+.side-menu ul a {
+
+	font-size: 1.0625em;
+font-weight: 400;
+color: #DA3743;
+line-height: 1.6em;
+}
+
+
+
 
 /*.navigation ul li:first-child {
 
@@ -270,7 +300,7 @@ position: relative;
 }
 
 
-/*typo*/
+/*TYPOGRAPHY*/
 
 body {
 	font-size: 100%;
@@ -308,6 +338,10 @@ small {
 	color: #DA3743;
 	font-weight: 700;
 }
+
+
+
+
 
 
 

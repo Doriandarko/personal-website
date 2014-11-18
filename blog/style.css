@@ -81,11 +81,17 @@ a {
 
 	text-decoration: none;
 	color: #333333;
+
 }
 
 a:hover {
 
 color: #da3743;
+	-webkit-transition: color .25s ease;
+   -moz-transition: color .25s ease;
+    -ms-transition: color .25s ease;
+     -o-transition: color .25s ease;
+        transition: color .25s ease;
 
 }
 
@@ -353,6 +359,11 @@ position: relative;
 	border-radius: 9px;
 	color: white;
 	font-weight: 700;
+	-webkit-transition: background-color .25s ease;
+   -moz-transition: background-color .25s ease;
+    -ms-transition: background-color .25s ease;
+     -o-transition: background-color .25s ease;
+        transition: background-color .25s ease;
 
 }
 

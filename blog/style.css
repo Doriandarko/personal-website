@@ -133,6 +133,32 @@ z-index: -10;
 
 }
 
+.division-line:first-child {
+
+left: 0;
+right: 0;
+height: 1px;
+background: #EAEAEA;
+position: absolute;
+z-index: -10;
+margin-top: 2em;
+
+
+}
+
+.division-line {
+
+left: 0;
+right: 0;
+height: 1px;
+background: #EAEAEA;
+position: absolute;
+z-index: -10;
+margin-top: 4em;
+
+
+}
+
 
 .navigation {
 
@@ -273,11 +299,73 @@ background: #EAEAEA;
 
 }
 
+.text {
+
+	width: 31.05263157894737em;
+	margin-top: 1.5em;
+}
+
+
+.info {
+
+	width: 36.875em;
+	position: relative;
+	margin-top: 4.625em;
+}
+
+.following{
+
+	width: 36.875em;
+	position: relative;
+	margin-top: 7.625em;
+}
+
+.profile-pic {
+
+	width: 4.125em;
+
+}
 
 
 .article {
 
 position: relative;
+
+}
+
+.fill {
+
+	height: 2em;
+}
+
+.reduced {
+
+	width: 20.10526315789474em;
+}
+
+.button {
+
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-right: 27px;
+	padding-left: 27px;
+	background-color: #559EBE;
+	border-radius: 9px;
+	color: white;
+	font-weight: 700;
+
+}
+
+.button:hover {
+	background-color: #61B5D9;
+	color: white;
+}
+
+.button-next {
+
+position: relative;
+top: 3.2em;
+left: 3.2em;
 
 }
 
@@ -297,6 +385,11 @@ position: relative;
 .article-row {
 
 	margin-top: 5.25em;
+}
+
+.next-article {
+
+float: left;
 }
 
 
@@ -332,11 +425,29 @@ h3 {
 }
 
 
+
+p {
+
+	font-size: 1.1875em;
+	font-weight: 400;
+	color: #4A4A4A;
+	line-height: 1.85em
+}
+
+
+
 small {
 
 	font-size: 0.875em;
 	color: #DA3743;
 	font-weight: 700;
+}
+
+
+
+.profile-info small {
+color: #666666;
+
 }
 
 
@@ -351,7 +462,7 @@ small {
 
 	body {
 
-		font-size: 130%;
+		font-size: 115%;
 	}
 }
 

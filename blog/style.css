@@ -478,6 +478,27 @@ color: #666666;
 }
 
 
+@media (max-width: 1440px) {
+
+	body {
+
+		font-size: 90%;
+	}
+}
+
+@media (max-width: 1281px) {
+
+	
+.main-box {
+
+	width: 63em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+}
+
+
 
 
 

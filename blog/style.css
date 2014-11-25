@@ -510,8 +510,9 @@ margin-left: 28.3em;
 }
 
 
-
 }
+
+
 
 @media (max-width: 1281px) {
 
@@ -537,6 +538,41 @@ margin-left: 21em;
 
 
 }
+
+@media (max-width: 769px) {
+
+.size2of6{width: 50%;}
+
+.size4of6{width: 100%;}
+
+.lastmobo .size2of6 {
+	width: 100%;
+	margin-top: 3em;
+}
+
+.main-box {
+
+	width: 50em;
+	
+}
+
+
+	.title {
+
+
+margin-left: 16em;
+
+}
+
+.pagination ul li:first-child {
+
+	margin-left:17.4em;
+}
+
+
+}
+
+
 
 
 

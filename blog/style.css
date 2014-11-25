@@ -243,6 +243,12 @@ border-bottom-color: #559EBE;
 
 }
 
+.navigation ul li:visited {
+
+color: black;
+
+}
+
 .footer {
 
 
@@ -338,6 +344,13 @@ background: #EAEAEA;
 position: relative;
 
 }
+
+.category {
+
+  color: #DA3743;
+}
+
+
 
 .fill {
 
@@ -484,6 +497,16 @@ color: #666666;
 
 		font-size: 90%;
 	}
+
+	.title {
+
+
+margin-left: 28.3em;
+
+}
+
+
+
 }
 
 @media (max-width: 1281px) {
@@ -495,6 +518,14 @@ color: #666666;
 	margin-right: auto;
 	margin-left: auto;
 }
+
+	.title {
+
+
+margin-left: 21em;
+
+}
+
 
 }
 

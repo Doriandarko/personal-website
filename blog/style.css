@@ -206,6 +206,13 @@ border-bottom: 2px solid transparent;
 
 }
 
+.navigation .selected {
+
+	color: black;
+	border-bottom: 2px solid #559EBE;
+}
+
+
 
 .side-menu ul li {
 
@@ -243,11 +250,7 @@ border-bottom-color: #559EBE;
 
 }
 
-.navigation ul li:visited {
 
-color: black;
-
-}
 
 .footer {
 
@@ -268,6 +271,7 @@ padding-bottom: 1.83em;
 border-bottom: 2px solid transparent;
 
 }
+
 
 .pagination ul li : hover {
 
@@ -524,6 +528,11 @@ margin-left: 28.3em;
 
 margin-left: 21em;
 
+}
+
+.pagination ul li:first-child {
+
+	margin-left:23.4em;
 }
 
 

@@ -183,6 +183,20 @@ margin-top: 4em;
 	padding-top: 1.25em;
 }
 
+.article-data {
+
+	width: 36.875em;
+	position: relative;
+	
+}
+
+.article-data .description {
+
+	margin-top: 5.25em;
+}
+
+
+
 
 /*.navigation ul a li:first-child {
 
@@ -342,11 +356,45 @@ background: #EAEAEA;
 
 }
 
+.profile-pic-big {
+
+	width: 7em;
+
+}
+
+.cover {
+
+position: absolute;
+left: 0;
+right: 0;
+height: 8.75em;
+background-color: lightcyan;
+z-index: -5;
+top:10.2em;
+
+}
+
+.author-social-icon {
+
+	width: 1.75em;
+	margin-left: 3.125em;
+}
+
+.author-social .author-social-icon:first-child {
+
+	margin-left: 0;
+}
+
 
 .article {
 
 position: relative;
 
+}
+
+.profile-session {
+
+	position: relative;
 }
 
 .category {

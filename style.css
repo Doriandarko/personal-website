@@ -204,8 +204,8 @@ body {
 	/*font-family: apercu;*/
 	/*-webkit-font-smoothing: antialiased;*/
 	text-rendering: optimizeLegibility;
-	etter-spacing: 0.06px;
-	background-color: seashell;
+	letter-spacing: 0.06px;
+	background-color: rgb(237, 237, 237);
     
 }
 

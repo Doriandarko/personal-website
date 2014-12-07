@@ -573,6 +573,12 @@ height: auto;
 margin-left: 0.3125em;
 }
 
+p.about {
+
+	margin-right: 0em;
+    margin-left: 0em;
+}
+
 
 h1 {
 

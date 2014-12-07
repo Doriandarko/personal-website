@@ -159,7 +159,7 @@ img {
 
 .margin-top{
 
-	margin-top: 11.368em;
+	margin-top: 12.7em;
 }
 
 .margin-image {
@@ -169,7 +169,7 @@ img {
 
 .contacts {
 
-	margin-top: 6.05em;
+	margin-top: 7.05em;
 	list-style-type: none;
 	position: relative;
     top: -0.8125em;
@@ -240,10 +240,11 @@ body {
 
 
 h1 {
-    font-size: 2.8125em; /* 45 / 16 */
+    font-size: 1.5em; /* 45 / 16 */
     line-height: 1em; /* 238 / 238 */
-    margin-bottom:0.46em;
-    font-family: "larish",serif;
+    margin-bottom:4.68em;
+    margin-top: 1em;
+    font-family: "Apercu-Regular",sans-serif;
     position: relative;
     top: -1.14705882352941em;   
 }
@@ -253,14 +254,14 @@ h6 {
 	font-size: 0.9375em;
 	line-height: 2.08333333333333em;
 	margin-left: 0.625em;
-	font-family: "futura-pt",sans-serif;
+	font-family: "Apercu-Regular",sans-serif;
 }
 
 
 p {
     font-size: 1.125em; /* 15 / 16 */
     line-height: 1.69em; /* 24 / 16 */
-    font-family: "futura-pt",sans-serif;
+    font-family: "Apercu-Regular",sans-serif;
 }
 
 

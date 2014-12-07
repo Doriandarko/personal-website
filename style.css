@@ -35,7 +35,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 /*COLOR EXPSERIMENT*/
 
-@-webkit-keyframes fade {
+/*@-webkit-keyframes fade {
   0%, 100% {
     background-color: aliceblue; }
 
@@ -93,7 +93,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     background-color: aliceblue; }  }
 
 body.fade {
-  -webkit-animation: fade 30s ease-out infinite; }
+  -webkit-animation: fade 30s ease-out infinite; }*/
 
 
 
@@ -124,7 +124,7 @@ body.fade {
 
 .content  {
 
-	width: 84em;
+	width: 68em;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
@@ -159,7 +159,7 @@ img {
 
 .margin-top{
 
-	margin-top: 12.67em;
+	margin-top: 12em;
 }
 
 .margin-image {
@@ -205,6 +205,7 @@ body {
 	/*-webkit-font-smoothing: antialiased;*/
 	text-rendering: optimizeLegibility;
 	etter-spacing: 0.06px;
+	background-color: seashell;
     
 }
 
@@ -260,7 +261,7 @@ h6 {
 
 p {
     font-size: 1.125em; /* 15 / 16 */
-    line-height: 1.69em; /* 24 / 16 */
+    line-height: 1.5em; /* 24 / 16 */
     font-family: "Futura-pt",sans-serif;
 }
 

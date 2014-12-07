@@ -242,9 +242,9 @@ body {
 h1 {
     font-size: 1.5em; /* 45 / 16 */
     line-height: 1em; /* 238 / 238 */
-    margin-bottom:4.68em;
+    margin-bottom:5.3em;
     margin-top: 1em;
-    font-family: "Apercu-Regular",sans-serif;
+    font-family: "Futura-pt",sans-serif;
     position: relative;
     top: -1.14705882352941em;   
 }
@@ -254,14 +254,14 @@ h6 {
 	font-size: 0.9375em;
 	line-height: 2.08333333333333em;
 	margin-left: 0.625em;
-	font-family: "Apercu-Regular",sans-serif;
+	font-family: "Futura-pt",sans-serif;
 }
 
 
 p {
-    font-size: 1em; /* 15 / 16 */
+    font-size: 1.125em; /* 15 / 16 */
     line-height: 1.69em; /* 24 / 16 */
-    font-family: "Apercu-Regular",sans-serif;
+    font-family: "Futura-pt",sans-serif;
 }
 
 

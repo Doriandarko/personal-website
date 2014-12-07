@@ -117,7 +117,7 @@ img {
 body {
 	font-size: 100%;
 	color: #596672;
-	font-family: apercu;
+	font-family: "Futura-pt",sans-serif;
 	background-color: #DCDCDC;
 }
 
@@ -148,7 +148,7 @@ h6 {
 
 
 p {
-    font-size: 0.9375em; /* 15 / 16 */
+    font-size: 0.875em; /* 15 / 16 */
     line-height: 1.66666666666667em; /* 24 / 16 */
 }
 

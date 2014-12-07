@@ -544,4 +544,42 @@ margin-left: 4.125em;
 }
 
 
+@media ( max-width: 500px) {
+
+
+	.blockmargin {
+
+	margin-left: 0em;
+}
+}
+
+
+
+@media ( max-width: 320px) {
+
+
+.size8of8{width:100%}
+.size7of8{width:100%}
+.size6of8{width:100%}
+.size5of8{width:100%}
+.size4of8{width:100%}
+.size3of8{width:100%}
+.size2of8{width:100%}
+.size1of8{width:100%}
+.size4of4{width:100%}
+.size3of4{width:100%}
+.size2of4{width:100%}
+.size1of4{width:100%}
+.size2of2{width:100%}
+.size1of2{width:100%}
+.size3of3{width:100%}
+.size2of3{width:100%}
+.size1of3{width:100%}
+.size1of1{width:100%}
+
+
+
+}
+
+
 

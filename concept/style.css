@@ -195,6 +195,153 @@ a.linkOnImage {
 }
 
 
+@media (max-width: 1024px) {
+
+	body {
+
+		font-size: 110%;
+	}
+
+	.contacts {
+
+	top: 6.25em;
+	margin-top: 0;
+	position: absolute;
+	right:0;
+}
+
+.toAppear {
+
+display: inline;
+
+}
+
+.margin-top {
+margin-top: 1.5em;
+}
+
+ p.toHide {
+
+ 	display: none;
+ }
+
+
+	.content {
+
+        width: 48em;
+
+	}
+
+	.size4of8 {
+
+		width: 100%;
+	}
+
+   .size2of8 {
+
+		width: 50%;
+	}
+
+}
+
+
+@media ( max-width: 768px) {
+
+
+	.content {
+
+        width: 40em;
+
+	}
+
+
+}
+
+
+@media ( max-width: 640px) {
+
+
+	.content {
+
+        width: 30em;
+
+	}
+
+	.size2of8 {
+
+		width: 100%;
+	}
+
+
+}
+
+
+@media ( max-width: 480px) {
+
+
+	.content {
+
+        width: 24em;
+
+	}
+
+
+}
+
+@media ( max-width: 384px) {
+
+
+	.content {
+
+        width: 21em;
+
+	}
+
+	.oniPhone {
+
+		display: none;
+	}
+
+
+
+}
+
+@media ( max-width: 320px) {
+
+
+	.content {
+
+        width: 18em;
+
+	}
+
+h1 {
+font-size: 2em;
+
+margin-bottom: 2.49em;
+
+}
+
+.contacts {
+position: absolute;
+right: 0.8em;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

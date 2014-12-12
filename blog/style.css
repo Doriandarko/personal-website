@@ -66,6 +66,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 }
 
+.logo-respo {
+
+	position: absolute;
+	top: 1em;
+	width: 10em;
+}
+
 
 img {
 	width: 100%; 
@@ -166,7 +173,7 @@ margin-top: 4em;
 }
 
 
-.menu {
+.menu-dextop {
 
 
   position: relative;
@@ -195,6 +202,14 @@ margin-top: 4em;
 
 	line-height: 2em;
 }
+
+.main-title h1 {
+
+	font-weight: 700;
+	color: #DA3743;
+	line-height: 1em;
+}
+
 
 .pagination {
 
@@ -535,12 +550,6 @@ p {
 }
 
 
-h4 {
-
-	font-size: 1.5em;
-	font-weight: 700;
-	color: #DA3743;
-}
 
 
 small {
@@ -558,7 +567,42 @@ color: #666666;
 }
 
 
+.slicknav_menu {
+	display:none;
+}
 
+#menu {
+	display: none;
+}
+
+
+@media screen and (max-width: 40em) {
+	/* #menu is the original menu */
+	.js #menu {
+		display:none;
+	}
+
+    .menu-dextop, .title-logo, .navigation-line {
+
+    	display:none;
+    }
+
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+
+	.main-box {
+width: 40em;
+}
+
+.size6of6{width:100%}
+.size4of6{width: 100%}
+.size3of6{width: 100%}
+.size2of6{width: 100%}
+.size1of6{width: 100%}
+
+}
 
 
 
@@ -651,6 +695,15 @@ margin-left: 16em;
 
 }
 
+
+@media (max-width: 400px)
+ {
+
+.main-box {
+width: 25em;
+}
+
+ }
 
 
 

@@ -6,7 +6,7 @@ body {
 	font-size: 100%;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	background-color: #444444;
+	background-color: #373737;
 	
 }
 
@@ -40,14 +40,30 @@ h1 {
 h5 {
 
 
-    font-size: 1.25em;
+    font-size: 1.125em;
 	font-family: "effra",sans-serif;
 	font-weight: 400;
 	color: #F0F0F0;
 	opacity: 0.75;
 
+-webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
 
+
+
+	}
+
+
+h5:hover {
+
+	color: white;
+	opacity: 1;
 }
+
+
 
 h6 {
 
@@ -65,7 +81,7 @@ p {
 	font-family: "minion-pro",serif;
     font-style: normal;
     font-weight: 400;
-	line-height: 1.53846153846154em;
+	line-height: 1.76em;
 	color: #fff;
 }
 
@@ -76,6 +92,9 @@ strong {
 
 a {
 	text-decoration: none;
+	color: #FFF;
+	padding-bottom: 2px;
+    border-bottom: 1px solid #eee;
 }
 
 
@@ -85,6 +104,8 @@ a {
 .wrapper {
 	margin: 0 auto;
 	max-width: 75em; /* 1200/16px */
+	margin-left:  auto;
+	margin-right: auto;
 
 }
 
@@ -110,7 +131,7 @@ a {
 
 .main-article {
 
-  margin-top: 9.4375em;
+  margin-top: 9em;
 
 }
 
@@ -133,6 +154,17 @@ ul {
 
 .menu li:first-child {
 
-	margin-left: 12.5em;
+	margin-left: 7em;
+}
+
+.social li:first-child {
+
+	margin-left: 14.3125em;
+}
+
+.footer {
+
+	margin-top: 3.875em;
+	margin-bottom: 3.625em;
 }
 

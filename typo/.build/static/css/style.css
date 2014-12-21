@@ -1,0 +1,138 @@
+/* Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0} 
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	background-color: #444444;
+	
+}
+
+/*Clear fix*/
+.cf:after,
+.cf:before {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1;
+}
+
+
+
+/*Typography*/
+
+h1 {
+
+	font-size: 1.625em;
+	font-family: "effra",sans-serif;
+	font-weight: 700;
+	color: #FF5548;
+	line-height: 1.15384615384615em;
+
+}
+
+h5 {
+
+
+    font-size: 1.25em;
+	font-family: "effra",sans-serif;
+	font-weight: 400;
+	color: #F0F0F0;
+	opacity: 0.75;
+
+
+}
+
+h6 {
+
+	font-size: 1.125em;
+	font-family: "effra",sans-serif;
+	font-weight: 400;
+	color: #C4C4C4;
+	opacity: 0.5;
+}
+
+
+p {
+
+	font-size: 1.625em;
+	font-family: "minion-pro",serif;
+    font-style: normal;
+    font-weight: 400;
+	line-height: 1.53846153846154em;
+	color: #fff;
+}
+
+strong {
+	font-weight: 500;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*Layout*/
+
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 75em; /* 1200/16px */
+
+}
+
+.size8of8{width:100%}
+.size7of8{width:87.5%}
+.size6of8{width:75%}
+.size5of8{width:62.5%}
+.size4of8{width:50%}
+.size3of8{width:37.5%}
+.size2of8{width:25%}
+.size1of8{width:12.5%}
+
+
+.navigation {
+
+	margin-top: 4.0625em;
+}
+
+.navigation .menu {
+
+	padding-top: 0.4em;
+}
+
+.main-article {
+
+  margin-top: 9.4375em;
+
+}
+
+
+.float {
+
+	float: left;
+}
+
+
+ul {
+	list-style-type:none;
+}
+
+.menu li, .social li {
+	float: left;
+	margin-left: 2.5em;
+	
+}
+
+.menu li:first-child {
+
+	margin-left: 12.5em;
+}
+

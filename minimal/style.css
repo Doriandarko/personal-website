@@ -187,7 +187,7 @@ ul {
 
 
 
-@media screen and (max-width: 46.875em) {
+@media screen and (max-width: 40em) {
 
 
 .size6of8{width:100%}
@@ -195,7 +195,7 @@ ul {
 
 .wrapper {
 
-	max-width: 40em; /* 1200/16px */
+	max-width: 35em; /* 1200/16px */
 
 
 }
@@ -220,6 +220,16 @@ margin-left: 3.75em;
 margin-top: 4em;
 }
 
+
+.social {
+
+	margin-top: 2.5em;
+}
+
+
+.social li:first-child {
+margin-left: 0em;
+}
 
 
 .title {

@@ -146,7 +146,13 @@ a:hover {
 }
 
 
-.float {
+
+.title {
+
+	float: left
+}
+
+.copyright {
 
 	float: left;
 }
@@ -181,7 +187,7 @@ ul {
 
 
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 46.875em) {
 
 
 .size6of8{width:100%}
@@ -189,9 +195,41 @@ ul {
 
 .wrapper {
 
-	max-width: 35em; /* 1200/16px */
+	max-width: 40em; /* 1200/16px */
 
 
+}
+
+.navigation .menu {
+
+padding-top: 4.125em;
+
+
+}
+
+.menu li:first-child {
+margin-left: 0em;
+}
+
+.menu li, .social li {
+
+margin-left: 3.75em;
+}
+
+.main-article {
+margin-top: 4em;
+}
+
+
+
+.title {
+
+	float: none;
+}
+
+.copyright {
+
+	float: none;
 }
 
 

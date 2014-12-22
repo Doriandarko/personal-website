@@ -95,6 +95,16 @@ a {
 	color: #FFF;
 	padding-bottom: 2px;
     border-bottom: 1px solid #eee;
+    -webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
+}
+
+a:hover {
+
+	border-bottom: 1px solid #FF5548;
 }
 
 
@@ -167,4 +177,26 @@ ul {
 	margin-top: 3.875em;
 	margin-bottom: 3.625em;
 }
+
+
+
+
+@media screen and (max-width: 40em) {
+
+
+.size6of8{width:100%}
+
+
+.wrapper {
+
+	max-width: 35em; /* 1200/16px */
+
+
+}
+
+
+
+}
+
+
 

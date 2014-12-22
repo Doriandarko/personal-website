@@ -280,7 +280,63 @@ font-size: 1em;
 }
 
 
+}
+
+/*detect height*/
+
+
+@media screen and (min-width: 1920px) {
+
+body {
+	font-size: 120%;
+	
+}
+
+.footer {
+
+	margin-top: 15.875em;
+
+}
+    
+}
 
 
 
+@media screen and (max-width: 1440px) {
+
+
+
+.footer {
+
+	margin-top: 9.875em;
+
+}
+    
+}
+
+
+@media screen and (max-width: 1366px) {
+
+
+
+.footer {
+
+	margin-top: 6.875em;
+
+}
+    
+}
+
+
+@media screen and (max-width: 1280px) {
+
+
+
+.footer {
+
+	margin-top: 3.875em;
+
+}
+    
+}
 

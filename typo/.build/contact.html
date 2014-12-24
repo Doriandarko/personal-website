@@ -19,26 +19,50 @@
 </head>
 <body>
 	
-<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 
-<script type="text/javascript" charset="utf-8">
-	$(document).ready(function() {
-		
-		// Add the missing url to the text
-		$("#url").text(window.location.pathname);
-		
-		// Fix the css locations dynamically
-		$("head link").each(function() {
-			for (var i=0; i<window.location.pathname.split(/\//g).length-2; i++)
-				$(this).attr("href", "../" + $(this).attr("href"));
-		});
-		
-	})
-</script>
 
-<p>
-	Sorry the page <b id="url"></b> could not be found on this server.
-</p>
+
+<div class="wrapper relative">
+
+<div class="navigation">
+    <div class="line">
+        <div class="unit size8of8 cf">
+          <a href="index.html"><h1 class="title">Skirano</h1></a>
+          <div class="menu cf">
+            <ul>
+                <li><a href="work.html"><h5>Work</h5></a></li>
+                <li><a href=""><h5>Resume</h5></a></li>
+                <li><a href=""><h5>Contact</h5></a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- END NAVIGATION -->
+
+<div class="main-article">
+    <div class="line cf">
+        <div class="lastUnit size6of8">
+<p class="about">
++14156910629<br> 
+<a href="mailto:pietro.schirano@gmail.com">pietro.schirano@gmail.com</a><br> 
+1 Montgomery St, suite 700<br> 
+San Francisco, California.<br> 
+
+<!-- I am the creator of the gamboy skins pack for iPhone, and of some of the most popular free PSDs. -->
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- END ARTICLE -->
+
+ <div class="push"></div>
+</div> 
+<!-- end of the wrapper -->
+
 
 
     

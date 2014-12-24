@@ -7,6 +7,8 @@
 
 	<link rel="shortcut icon" href="{% static '/images/favicon.png' %}">
 	<link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <!-- <link rel="stylesheet" href="{% static '/css/animations.css' %}"> -->
+    <link rel="stylesheet" href="{% static '/css/animate.css' %}">
 	<script src="//use.typekit.net/udx3kwh.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 
@@ -20,9 +22,35 @@
 		Main content
 	{% endblock content %}
 
+    {% block footer %}
+        <div class="content">
+<div class="footer">
+    <div class="line cf">
+        <div class="lastUnit size8of8">
+            <div class="copyright"><h6>© Pietro Schirano, 2014</h6></div>
+            <div class="social cf">
+            <ul>
+                <li><a href=""><h6>Blog</h6></a></li>
+                <li><a href=""><h6>Instagram</h6></a></li>
+                <li><a href=""><h6>Dribbble</h6></a></li>
+                <li><a href=""><h6>Twitter</h6></a></li>
+            </ul>
+          </div>
+
+        </div>
+    </div>
+</div>
+</div>
+    {% endblock footer %}    
+
+
 	{% block scripts %}
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="{% static '/js/main.js' %}"></script>
+		<script src="{% static '/js/wow.js' %}"></script>
+        <script>
+          new WOW().init();
+        </script>
 	{% endblock scripts%}
 </body>
 </html>

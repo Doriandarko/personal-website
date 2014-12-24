@@ -11,6 +11,22 @@ body {
 	
 }
 
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 83%;
+	height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    /*margin-bottom: -3.75em;*/
+	
+}
+.footer, .push {
+	height: 3.75em; /* .push must be the same height as .footer */
+}
+
+
 /*Clear fix*/
 .cf:after,
 .cf:before {
@@ -22,6 +38,14 @@ body {
 }
 .cf {
 	zoom: 1;
+}
+
+/*animation on entrance*/
+
+#animatedObject{
+
+
+	visibility: hidden;
 }
 
 
@@ -112,7 +136,7 @@ a:hover {
 /*Layout*/
 
 
-.wrapper {
+.wrapper, .content {
 	margin: 0 auto;
 	max-width: 75em; /* 1200/16px */
 	margin-left:  auto;
@@ -144,6 +168,12 @@ a:hover {
 
   margin-top: 9em;
 
+}
+
+img.work {
+
+	width: 100%;
+	height: auto;
 }
 
 
@@ -179,13 +209,34 @@ ul {
 	margin-left: 14.3125em;
 }
 
-.footer {
+/*.footer {
 
 	margin-top: 9.875em;
 	margin-bottom: 3.625em;
+}*/
+
+
+.special {
+
+	float: left;
+	padding-right: 2.125em;
+	padding-right: 2.125em;
 }
 
+.first-line {
 
+	margin-top: 9.0625em;
+}
+
+.second-line, .third-line {
+
+	margin-top: 2em;
+}
+
+.extra {
+
+	margin-top: 1.641em;
+}
 
 
 @media screen and (max-width: 640px) {
@@ -194,7 +245,7 @@ ul {
 .size6of8{width:100%}
 
 
-.wrapper {
+.wrapper, .content {
 
 	max-width: 35em; /* 1200/16px */
 
@@ -248,39 +299,60 @@ margin-left: 0em;
 }
 
 
+
+@media screen and (max-width: 375px) {
+
+
+
+.wrapper, .content {
+
+	max-width: 26em; /* 1200/16px */
+
+
+}
+
+.noMobo {
+
+	display: none;
+}
+
+body {
+	font-size: 80%;
+	
+}
+
+.social {
+
+	margin-bottom: 3em;
+}
+
+}
+
+
 @media screen and (max-width: 320px) {
 
-.wrapper {
+.wrapper, .content {
 
-	max-width: 17.5em; /* 1200/16px */
+	max-width: 24em; /* 1200/16px */
 
 
 }
 
 
-h1 {
-
-	font-size: 1.25em;
-
-}
-
-p {
-
-	font-size: 1.25em;
-}
-
-h5 { font-size: 1em;
-
-}	
 
 
-h6 {
-font-size: 1em;
 
+body {
+	font-size: 76.923076923077%;
+	
 }
 
 
 }
+
+
+
+
 
 /*detect height*/
 
@@ -292,11 +364,11 @@ body {
 	
 }
 
-.footer {
+/*.footer {
 
 	margin-top: 15.875em;
 
-}
+}*/
     
 }
 
@@ -305,12 +377,12 @@ body {
 @media screen and (max-width: 1440px) {
 
 
-
+/*
 .footer {
 
 	margin-top: 9.875em;
 
-}
+}*/
     
 }
 
@@ -319,12 +391,12 @@ body {
 
 
 
-.footer {
+/*.footer {
 
 	margin-top: 6.875em;
 
 }
-    
+   */ 
 }
 
 
@@ -332,11 +404,10 @@ body {
 
 
 
-.footer {
+/*.footer {
 
 	margin-top: 3.875em;
 
-}
+}*/
     
 }
-

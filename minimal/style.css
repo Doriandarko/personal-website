@@ -220,9 +220,14 @@ ul {
 	margin-top: 9.0625em;
 }
 
-.second-line, .extra {
+.second-line, .third-line {
 
 	margin-top: 2em;
+}
+
+.extra {
+
+	margin-top: 1.641em;
 }
 
 

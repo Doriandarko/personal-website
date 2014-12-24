@@ -289,6 +289,12 @@ margin-left: 0em;
 
 @media screen and (max-width: 375px) {
 
+
+.footer, .push {
+	height: 3.75em; /* .push must be the same height as .footer */
+}
+	
+
 .wrapper, .content {
 
 	max-width: 26em; /* 1200/16px */

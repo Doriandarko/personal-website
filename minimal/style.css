@@ -290,10 +290,6 @@ margin-left: 0em;
 @media screen and (max-width: 375px) {
 
 
-.footer, .push {
-	height: 3.75em; /* .push must be the same height as .footer */
-}
-	
 
 .wrapper, .content {
 
@@ -310,6 +306,11 @@ margin-left: 0em;
 body {
 	font-size: 80%;
 	
+}
+
+.social {
+
+	margin-bottom: 3em;
 }
 
 }

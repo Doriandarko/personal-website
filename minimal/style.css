@@ -146,6 +146,12 @@ a:hover {
 
 }
 
+img.work {
+
+	width: 100%;
+	height: auto;
+}
+
 
 
 .title {
@@ -186,6 +192,22 @@ ul {
 }
 
 
+.special {
+
+	float: left;
+	padding-right: 2.125em;
+	padding-right: 2.125em;
+}
+
+.first-line {
+
+	margin-top: 9.0625em;
+}
+
+.second-line {
+
+	margin-top: 2em;
+}
 
 
 @media screen and (max-width: 640px) {
@@ -252,31 +274,15 @@ margin-left: 0em;
 
 .wrapper {
 
-	max-width: 17.5em; /* 1200/16px */
+	max-width: 30em; /* 1200/16px */
 
 
 }
 
 
-h1 {
-
-	font-size: 1.25em;
-
-}
-
-p {
-
-	font-size: 1.25em;
-}
-
-h5 { font-size: 1em;
-
-}	
-
-
-h6 {
-font-size: 1em;
-
+body {
+	font-size: 60%;
+	
 }
 
 

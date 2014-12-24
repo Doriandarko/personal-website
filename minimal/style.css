@@ -286,6 +286,29 @@ margin-left: 0em;
 }
 
 
+
+@media screen and (max-width: 375px) {
+
+.wrapper {
+
+	max-width: 26em; /* 1200/16px */
+
+
+}
+
+.noMobo {
+
+	display: none;
+}
+
+body {
+	font-size: 80%;
+	
+}
+
+}
+
+
 @media screen and (max-width: 320px) {
 
 .wrapper {
@@ -308,26 +331,7 @@ body {
 }
 
 
-@media screen and (max-width: 375px) {
 
-.wrapper {
-
-	max-width: 26em; /* 1200/16px */
-
-
-}
-
-.noMobo {
-
-	display: none;
-}
-
-body {
-	font-size: 80%;
-	
-}
-
-}
 
 
 /*detect height*/

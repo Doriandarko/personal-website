@@ -11,6 +11,22 @@ body {
 	
 }
 
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 83%;
+	height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    /*margin-bottom: -3.75em;*/
+	
+}
+.footer, .push {
+	height: 3.75em; /* .push must be the same height as .footer */
+}
+
+
 /*Clear fix*/
 .cf:after,
 .cf:before {
@@ -112,7 +128,7 @@ a:hover {
 /*Layout*/
 
 
-.wrapper {
+.wrapper, .content {
 	margin: 0 auto;
 	max-width: 75em; /* 1200/16px */
 	margin-left:  auto;
@@ -185,11 +201,11 @@ ul {
 	margin-left: 14.3125em;
 }
 
-.footer {
+/*.footer {
 
 	margin-top: 9.875em;
 	margin-bottom: 3.625em;
-}
+}*/
 
 
 .special {
@@ -324,11 +340,11 @@ body {
 	
 }
 
-.footer {
+/*.footer {
 
 	margin-top: 15.875em;
 
-}
+}*/
     
 }
 
@@ -337,12 +353,12 @@ body {
 @media screen and (max-width: 1440px) {
 
 
-
+/*
 .footer {
 
 	margin-top: 9.875em;
 
-}
+}*/
     
 }
 
@@ -351,12 +367,12 @@ body {
 
 
 
-.footer {
+/*.footer {
 
 	margin-top: 6.875em;
 
 }
-    
+   */ 
 }
 
 
@@ -364,11 +380,11 @@ body {
 
 
 
-.footer {
+/*.footer {
 
 	margin-top: 3.875em;
 
-}
+}*/
     
 }
 

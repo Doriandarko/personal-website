@@ -80,7 +80,11 @@ h5:hover {
 	opacity: 1;
 }
 
+h5.selected {
 
+	color: #FFF;
+	opacity: 1;
+}
 
 h6 {
 
@@ -216,7 +220,7 @@ img.work {
 
 .job-data-after  {
 
-	margin-top: 90px;
+	margin-top: 5.625em;
 }
 
 

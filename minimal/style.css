@@ -102,6 +102,43 @@ p {
 	color: #fff;
 }
 
+
+p.job {
+
+	font-family: "effra",sans-serif;
+	font-weight: 400;
+}
+
+p.company 
+
+{
+
+	font-family: "effra",sans-serif;
+	font-weight: 300;
+}
+
+p.date 
+
+{
+
+	font-family: "effra",sans-serif;
+	font-weight: 300;
+	color: #fff;
+	opacity: 0.4;
+}
+
+
+small {
+
+   font-size: 0.85em;
+	font-family: "effra",sans-serif;
+	font-weight: 700;
+	color: #707077;
+	display: block;
+	margin-top: -0.9375em;
+
+}
+
 strong {
 	font-weight: 500;
 	color: #333;
@@ -126,6 +163,8 @@ a:hover {
 
 
 /*Layout*/
+
+
 
 
 .wrapper, .content {
@@ -175,6 +214,14 @@ img.work {
 	float: left
 }
 
+.job-data-after  {
+
+	margin-top: 90px;
+}
+
+
+
+
 .copyright {
 
 	float: left;
@@ -213,6 +260,12 @@ ul {
 	float: left;
 	padding-right: 2.125em;
 	padding-right: 2.125em;
+}
+
+.atomo {
+
+	float: left;
+
 }
 
 .first-line {

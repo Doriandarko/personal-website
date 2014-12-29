@@ -8,7 +8,8 @@
     <meta name="description" content="A kinda of about me page more or less.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pietro Schirano about page</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="style-alte.css">
         <link rel="author" href="humans.txt">
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
         <script src="//use.typekit.net/udx3kwh.js"></script>
@@ -78,7 +79,12 @@ I am a tech enthusiast, a guitar player and a “Back to the Future” evangelis
 </div>
 
 
-
+<script src="">
+        $('#toggle_dark').click(function(e) {
+            e.preventDefault();
+           $('body').toggleClass('dark');
+        });
+</script>
 
 
 </body>

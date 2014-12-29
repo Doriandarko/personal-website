@@ -1,0 +1,467 @@
+/* Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0} 
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+	/*text-rendering: optimizeLegibility;*/
+	/*background-color: #373737;*/
+	background-color: #FFF;
+	
+}
+
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 83%;
+	height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    /*margin-bottom: -3.75em;*/
+	
+}
+.footer, .push {
+	height: 3.75em; /* .push must be the same height as .footer */
+}
+
+
+/*Clear fix*/
+.cf:after,
+.cf:before {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1;
+}
+
+
+
+/*Typography*/
+
+h1 {
+
+	font-size: 1.625em;
+	font-family: "effra",sans-serif;
+	font-weight: 700;
+	color: #FF5548;
+	line-height: 1.15384615384615em;
+
+}
+
+h5 {
+
+
+    font-size: 1.125em;
+	font-family: "effra",sans-serif;
+	font-weight: 400;
+	color: #819199;
+	opacity: 0.75;
+
+-webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
+
+
+
+	}
+
+
+h5:hover {
+
+	color: #545F64;
+	opacity: 1;
+}
+
+h5.selected {
+
+	color: #545F64;
+	opacity: 1;
+}
+
+h6 {
+
+	font-size: 1.125em;
+	font-family: "effra",sans-serif;
+	font-weight: 400;
+	color: #ACB6BB;
+	/*opacity: 0.5;*/
+}
+
+
+p {
+
+	font-size: 1.625em;
+	font-family: "minion-pro",serif;
+    font-style: normal;
+    font-weight: 400;
+	line-height: 1.76em;
+	color: #545F64;
+}
+
+
+p.job {
+
+	font-family: "effra",sans-serif;
+	font-weight: 400;
+}
+
+p.company 
+
+{
+
+	font-family: "effra",sans-serif;
+	font-weight: 300;
+}
+
+p.date 
+
+{
+
+	font-family: "effra",sans-serif;
+	font-weight: 300;
+	color: #545F64;
+	opacity: 0.4;
+}
+
+
+small {
+
+   font-size: 0.85em;
+	font-family: "effra",sans-serif;
+	font-weight: 700;
+	color: #819199;
+	display: block;
+	margin-top: -0.9375em;
+
+}
+
+strong {
+	font-weight: 500;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #545F64;
+	padding-bottom: 2px;
+    border-bottom: 1px solid #545F64;
+    -webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
+}
+
+a:hover {
+
+	border-bottom: 1px solid #FF5548;
+}
+
+
+/*Layout*/
+
+
+
+
+.wrapper, .content {
+	margin: 0 auto;
+	max-width: 75em; /* 1200/16px */
+	margin-left:  auto;
+	margin-right: auto;
+
+}
+
+.size8of8{width:100%}
+.size7of8{width:87.5%}
+.size6of8{width:75%}
+.size5of8{width:62.5%}
+.size4of8{width:50%}
+.size3of8{width:37.5%}
+.size2of8{width:25%}
+.size1of8{width:12.5%}
+
+
+.navigation {
+
+	margin-top: 4.0625em;
+}
+
+.navigation .menu {
+
+	padding-top: 0.4em;
+}
+
+.main-article {
+
+  margin-top: 9em;
+
+}
+
+img.work {
+
+	width: 100%;
+	height: auto;
+}
+
+
+
+.title {
+
+	float: left
+}
+
+.job-data-after  {
+
+	margin-top: 5.625em;
+}
+
+
+
+
+.copyright {
+
+	float: left;
+}
+
+
+ul {
+	list-style-type:none;
+}
+
+.menu li, .social li {
+	float: left;
+	margin-left: 2.5em;
+	
+}
+
+.menu li:first-child {
+
+	margin-left: 7em;
+}
+
+.social li:first-child {
+
+	margin-left: 14.3125em;
+}
+
+/*.footer {
+
+	margin-top: 9.875em;
+	margin-bottom: 3.625em;
+}*/
+
+
+.special {
+
+	float: left;
+	padding-right: 2.125em;
+	padding-right: 2.125em;
+}
+
+.atomo {
+
+	float: left;
+
+}
+
+.first-line {
+
+	margin-top: 9.0625em;
+}
+
+.second-line, .third-line {
+
+	margin-top: 2em;
+}
+
+.extra {
+
+	margin-top: 1.641em;
+}
+
+
+
+
+
+
+
+
+/*detect height*/
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 1024px) {
+
+
+.wrapper, .content {
+
+	max-width: 58em; /* 1200/16px */
+
+
+}
+
+}
+
+
+
+@media screen and ( max-width: 768px) {
+
+
+.wrapper, .content {
+
+	max-width: 40em; /* 1200/16px */
+
+
+}
+
+.noMobo {
+
+	display: none;
+}
+
+.size6of8{width:100%}
+
+
+.navigation .menu {
+
+padding-top: 4.125em;
+
+
+}
+
+.menu li:first-child {
+margin-left: 0em;
+}
+
+.menu li, .social li {
+
+margin-left: 3.75em;
+}
+
+.main-article {
+margin-top: 4em;
+}
+
+
+.social {
+
+	margin-top: 2.5em
+}
+
+
+.social li:first-child {
+margin-left: 0em;
+}
+
+
+.title {
+
+	float: none;
+}
+
+.copyright {
+
+	float: none;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+
+.size6of8{width:100%}
+
+
+.wrapper, .content {
+
+	max-width: 35em; /* 1200/16px */
+
+
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+
+
+.wrapper, .content {
+
+	max-width: 26em; /* 1200/16px */
+
+
+}
+
+
+
+body {
+	font-size: 80%;
+	
+}
+
+.social {
+
+	margin-bottom: 3em;
+}
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+.wrapper, .content {
+
+	max-width: 24em; /* 1200/16px */
+
+
+}
+
+
+body {
+	font-size: 76.923076923077%;
+	
+}
+
+
+}
+
+
+@media screen and (min-width: 1920px) {
+
+body {
+	font-size: 120%;
+	
+}
+
+/*.footer {
+
+	margin-top: 15.875em;
+
+}*/
+    
+}
+

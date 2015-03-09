@@ -43,22 +43,27 @@ h1.under {
 }
 
 
-/*h2 {
+.textCenter {
+
+  text-align: center;
+}
+
+h2 {
 
 font-size: 1.375em;
 line-height: 1.22727273em;
-color: #3D414B;
-margin-top: 5em;
+color: white;
+margin-top: 8em;
 
 }
 
 h3 {
 
   font-size: 1.0625em;
-line-height: 1.23529412em;
-color: #9CA3B0;
-margin-top: 0.5em;
-}*/
+line-height:1.23529412em;
+color: white;
+/*margin-top: 0.5em;*/
+}
 
 
 h4 {
@@ -154,11 +159,13 @@ margin-left: 14.5em;
 .large {
 
   width: 58.259587%;
+  position: relative;
 }
 
 .small {
 
   width: 38.495575%;
+  position: relative;
 }
 
 .logo {
@@ -191,6 +198,36 @@ background-color: #C5C8CF;
 width: 4.125em;
 margin-top: 7.9375em;
 
+}
+
+
+.blockOnHover {
+
+  position: absolute;
+  top: 0;
+  bottom: 0em;
+  left: 0;
+  right: 0;
+  background-color: blue;
+  opacity: 0;
+
+}
+
+
+/*TRANSICTION */
+
+.blockOnHover:hover {
+
+-webkit-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+     -o-transition: all .5s ease;
+        transition: all .5s ease;
+}
+
+.blockOnHover:hover {
+
+  opacity: 0.8;
 }
 
 

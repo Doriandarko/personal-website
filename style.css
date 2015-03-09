@@ -199,9 +199,13 @@ margin-top: 7.9375em;
 
 .content {
 
-  max-width: 64.75em; /* 1200/16px */
+  width: 64.75em; /* 1200/16px */
 
 
+}
+
+.last {
+  margin-left: 2.102em;
 }
 
 ul li.second {

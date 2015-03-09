@@ -18,7 +18,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body {
 
-  font-family: "effra";
+  font-family: "futura-pt",sans-serif;
   /*font-size: 88.235294%;*/
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -34,6 +34,7 @@ color: #212124;
 margin-top: 3.88888889em;
 text-align: center;
 margin-bottom: 2.75em;
+font-weight: 800;
 
 }
 

@@ -192,3 +192,20 @@ width: 4.125em;
 margin-top: 7.9375em;
 
 }
+
+
+@media screen and ( max-width: 1024px) {
+
+
+.content {
+
+  max-width: 64.75em; /* 1200/16px */
+
+
+}
+
+ul li.second {
+  margin-left: 11em;
+}
+
+}

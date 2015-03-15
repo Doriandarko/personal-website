@@ -1,0 +1,100 @@
+/* Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0} 
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*Clear fix*/
+.cf:after,
+.cf:before {
+  content: '';
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  zoom: 1;
+}
+
+body {
+
+ font-family: "nimbus-sans",sans-serif;
+  /*font-size: 88.235294%;*/
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-color: #FFF5EE;
+}
+
+/*Typography*/
+
+h1 {
+
+font-size: 1.6875em;
+width: 29.81481481481481em;
+margin-left: 4.88888888888889em;
+margin-right: 9.77777777777778em;
+line-height: 1.44444444444444em;
+color: #4F6E9F;
+
+}
+
+.first {
+  margin-top: 6.55555555555556em;
+}
+
+/* Laoyot  */
+
+.content {
+
+ width: 75em;
+
+}
+
+ul {
+
+list-style-type: none;
+}
+
+.social {
+
+  margin-top: 7.8125em;
+  margin-left: 24.75em;
+}
+
+a {
+color: #4F6E9F;
+text-decoration: underline;
+
+}
+
+
+ul li a {
+font-size: 1.375em;
+color: #4F6E9F;
+text-decoration: none;
+line-height: 1.18181818181818em;
+
+}
+
+ul li {
+
+  margin-top: 13px;
+}
+
+.list {
+
+  margin-left: 4.125em;
+}
+
+.center {
+
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.float {
+
+float: left;
+
+}

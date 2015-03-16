@@ -22,7 +22,7 @@ body {
   /*font-size: 88.235294%;*/
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background-color: #F3F5FA;
+  background-color: #FFF5EE;
 }
 
 /*Typography*/
@@ -34,13 +34,13 @@ width: 29.81481481481481em;
 margin-left: 4.88888888888889em;
 margin-right: 9.77777777777778em;
 line-height: 1.44444444444444em;
-color: #05163F;
+color: #3653AD;
 
 }
 
 h2 {
 
-  color: #05163F;
+  color: #3653AD;
   font-size: 1.375em;
   line-height: 1.18181818181818em;
   margin-left: 6em;
@@ -77,7 +77,7 @@ list-style-type: none;
 }
 
 a {
-color: #05163F;
+color: #3653AD;
 text-decoration: underline;
 
 }
@@ -85,7 +85,7 @@ text-decoration: underline;
 
 ul li a {
 font-size: 1.375em;
-color: #05163F;
+color: #3653AD;
 text-decoration: none;
 line-height: 1.18181818181818em;
 

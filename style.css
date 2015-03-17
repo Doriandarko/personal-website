@@ -22,41 +22,43 @@ body {
   /*font-size: 88.235294%;*/
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background-color: #FFF5EE;
+  background-color: #FFF;
+  color: #222222
 }
 
 /*Typography*/
 
 h1 {
 
-font-size: 1.6875em;
-width: 29.81481481481481em;
-margin-left: 4.88888888888889em;
-margin-right: 9.77777777777778em;
-line-height: 1.44444444444444em;
-color: #3653AD;
+font-size: 2.125em;
+/*width: 27.17647058823529em;*/
+margin-left: 3em;
+margin-right: 5.94117647058824em;
+line-height: 1.29411764705882em;
+
 
 }
 
 h2 {
 
-  color: #3653AD;
+  
   font-size: 1.375em;
   line-height: 1.18181818181818em;
-  margin-left: 6em;
+  margin-left: 6.375em;
   margin-top: 2.86363636363636em;
 
 }
 
 .first {
-  margin-top: 3.10714285714286em;
+  margin-top: 4.3125em;
+  font-style: italic;
 }
 
 /* Laoyot  */
 
 .content {
 
- width: 75em;
+ width: 80em;
 
 }
 
@@ -71,13 +73,13 @@ list-style-type: none;
 
 .social {
 
-  margin-top: 7.8125em;
-  margin-left: 27.5625em;
+  margin-top: 8.75em;
+ margin-left: 6.375em;
   margin-bottom: 9.0625em;
 }
 
 a {
-color: #3653AD;
+color: #222222;
 text-decoration: underline;
 
 }
@@ -85,7 +87,7 @@ text-decoration: underline;
 
 ul li a {
 font-size: 1.375em;
-color: #3653AD;
+color: #2222222;
 text-decoration: none;
 line-height: 1.18181818181818em;
 

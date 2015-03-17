@@ -32,9 +32,9 @@ h1 {
 
 font-size: 2.125em;
 /*width: 27.17647058823529em;*/
-margin-left: 3em;
+margin-left: 3.2em;
 margin-right: 5.94117647058824em;
-line-height: 1.29411764705882em;
+line-height: 1.43em;
 
 
 }
@@ -44,13 +44,13 @@ h2 {
   
   font-size: 1.375em;
   line-height: 1.18181818181818em;
-  margin-left: 6.375em;
-  margin-top: 2.86363636363636em;
+  margin-left: 5em;
+  margin-top: 2.65em;
 
 }
 
 .first {
-  margin-top: 4.3125em;
+  margin-top: 1.8em;
   font-style: italic;
 }
 
@@ -73,8 +73,8 @@ list-style-type: none;
 
 .social {
 
-  margin-top: 8.75em;
- margin-left: 6.375em;
+  margin-top: 8.2em;
+ margin-left: 6.8em;
   margin-bottom: 9.0625em;
 }
 

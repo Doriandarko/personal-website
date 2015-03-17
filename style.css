@@ -93,6 +93,50 @@ line-height: 1.18181818181818em;
 
 }
 
+/*colored links*/
+
+a.medium {
+
+  color: #59A968;
+}
+
+a.email {
+
+  color:#F0231F;
+}
+
+a.twitter {
+
+  color:#55ACEE;
+}
+
+a.facebook {
+
+  color:#3B5998;
+}
+
+a.dribbble {
+
+  color:#EA4C89;
+}
+
+a.instagram {
+
+  color:#3F729B;
+}
+
+a.soundcloud {
+
+  color:#FF8800;
+}
+
+a.github {
+
+  color:#9849AA;
+}
+
+
+
 ul li {
 
   margin-top: 13px;

@@ -212,11 +212,13 @@ margin-top: 7.9375em;
 position: absolute;
     z-index: -99;
     width: 1442px;
-    height: 540px;
-    top: 59px;
+    height: 440px;
+    top: 0;
     left: 50%;
     margin-left: -700px;
     background-image: url("img/shapesbg.svg");
+    background-position-y: 2294px;
+    background-position-x: -111px;
 
 }
 

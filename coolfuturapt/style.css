@@ -202,6 +202,16 @@ margin-top: 7.9375em;
 
 }
 
+.shapes {
+  position: absolute;
+  z-index: -99;
+  width: 54.0625em;
+  height: auto;
+  top:83px;
+  left: 50%; 
+  margin-left: -27.03125em; 
+
+}
 
 .blockOnHover {
 

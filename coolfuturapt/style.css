@@ -270,6 +270,12 @@ ul li.second {
   margin-left: 11em;
 }
 
+.shapes {
+
+  width: 1000px;
+  margin-left: -500px;
+}
+
 }
 
 @media screen and (max-width:1280px ) {
@@ -303,6 +309,7 @@ font-size: 87.235294%;
 .shapes {
 
   width: 500px;
+  margin-left: -250px;
 }
   
 }

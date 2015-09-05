@@ -271,3 +271,11 @@ ul li.second {
 }
 
 }
+
+@media screen and (max-width:1280px ) {
+
+  body {
+font-size: 87.235294%;
+  }
+  
+}

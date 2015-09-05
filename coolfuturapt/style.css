@@ -279,3 +279,25 @@ font-size: 87.235294%;
   }
   
 }
+
+@media screen and (max-width:768px ) {
+
+.content {
+    width: 49.75em;
+}
+
+  .last {
+  margin-left: 3em;
+}
+
+.large {
+    width: 56.259587%;
+    position: relative;
+}
+
+.small {
+    width: 37.495575%;
+    position: relative;
+}
+  
+}

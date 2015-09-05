@@ -73,14 +73,14 @@ color: #202020;
 
 .main-content {
 
-	    width: 1440px;
+    width: 1530px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     background-image: url("img/bg.svg");
     height: 830px;
-    background-position-x: 30px;
-    background-position-y: 134px;
+    background-position-x: -40px;
+    background-position-y: 147px;
     /* padding-top: 220px; */
     background-repeat: no-repeat;
 }

@@ -82,13 +82,7 @@ color: #202020;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background-image: url("img/bg.svg");
-    /*height: 830px;*/
-    background-position-x: -2.5em;
-    background-position-y: 12.9375em;
-    /* padding-top: 220px; */
-    background-repeat: no-repeat;
-    background-repeat-x: initial;
+
 }
 
 .main-text {
@@ -173,4 +167,22 @@ width: 0.5em;
 	background-color: #262525;
 	margin-bottom: 0.625em;
 
+}
+
+
+.shapes {
+width: 1530px;
+height: 680px;
+    left: 50%;
+    margin-left: -765px;
+position: absolute;
+top: 10em;
+z-index: -2;
+	    background-image: url("img/bg.svg");
+    /*height: 830px;*/
+    /*background-position-x: -2.5em;*/
+    /*background-position-y: 0;*/
+    /* padding-top: 220px; */
+    background-repeat: no-repeat;
+    /*background-repeat-x: initial;*/
 }

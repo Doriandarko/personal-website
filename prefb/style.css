@@ -71,6 +71,13 @@ color: #202020;
 line-height: 70px;
 }
 
+p {
+font-size: 14px;
+color: #202020;
+line-height: 18px;
+
+}
+
 a {
 
 font-weight: 600;
@@ -105,18 +112,13 @@ h2:first-child {
   margin-left: auto;
   /*background-color: yellow;*/
   position: relative;
+  height: 100vh;
 }
 
-.test{
+.footer {
 
-  height: 500px;
-  background-color: antiquewhite;
-}
-
-.test2{
-
-  height: 500px;
-  background-color: black;
+  position: absolute;
+  bottom: 50px;
 }
 
 ul {
@@ -145,6 +147,7 @@ ul.nav li {
 background: #202020;
 width: 15px;
 height: 5px;
+margin-bottom: 0.5em;
 }
 
 .divider {

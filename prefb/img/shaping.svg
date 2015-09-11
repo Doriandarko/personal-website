@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="253px" height="443px" viewBox="0 0 253 443" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>shaping</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy" sketch:type="MSArtboardGroup" transform="translate(-864.000000, -222.000000)">
+            <g id="shaping" sketch:type="MSLayerGroup" transform="translate(864.000000, 222.000000)">
+                <g id="Triangle-1-+-Triangle-1-Copy-+-Triangle-1-+-Triangle-1-Copy-2-Copy" transform="translate(68.345972, 47.180328)" sketch:type="MSShapeGroup">
+                    <g id="Triangle-1-+-Triangle-1-Copy" transform="translate(0.000000, 196.070965)">
+                        <polygon id="Triangle-1" fill="#FFEB3B" points="46.1635071 0 92.3270142 198.598068 0 198.598068 "></polygon>
+                        <polygon id="Triangle-1-Copy" fill="#FF8AB2" points="138.490521 0 184.654028 198.598068 92.3270142 198.598068 "></polygon>
+                    </g>
+                    <g id="Triangle-1-+-Triangle-1-Copy-2" transform="translate(92.500000, 100.248707) scale(1, -1) translate(-92.500000, -100.248707) translate(0.000000, 0.748707)">
+                        <polygon id="Triangle-1" fill="#2196F3" points="46.1635071 0 92.3270142 198.598068 0 198.598068 "></polygon>
+                        <polygon id="Triangle-1-Copy" points="138.490521 0 184.654028 198.598068 92.3270142 198.598068 "></polygon>
+                    </g>
+                </g>
+                <ellipse id="Oval-16" fill="#000000" sketch:type="MSShapeGroup" cx="23.9810427" cy="419.010929" rx="23.9810427" ry="23.989071"></ellipse>
+                <ellipse id="Oval-16-Copy" fill="#FF8AB2" sketch:type="MSShapeGroup" cx="205.981043" cy="215.010929" rx="23.9810427" ry="23.989071"></ellipse>
+                <path d="M161.398257,0.599726776 C158.991882,24.8446302 138.542997,43.7800546 113.672986,43.7800546 C88.802975,43.7800546 68.3540894,24.8446302 65.9477144,0.599726776 L161.398257,0.599726776 Z" id="Oval-15" fill="#FFEB3B" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

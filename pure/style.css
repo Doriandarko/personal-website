@@ -57,6 +57,13 @@ line-height: 1.22222222222222em;
 
 }
 
+p {
+
+	font-size: 1.125em;
+}
+
+
+
 ul li:first-child {
 font-weight: 400;
 
@@ -81,7 +88,7 @@ color: #202020;
 	height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
+    /*position: relative;*/
 
 }
 
@@ -96,9 +103,9 @@ color: #202020;
 
 .bottom-links {
 
-	bottom: 5.5em;
+	bottom: 3.3em;
 	position: absolute;
-	left: 9.2%;
+	left: 19.722222222222%;
 }
 
 .bottom-links ul li {
@@ -109,6 +116,7 @@ color: #202020;
 .bottom-links ul li:first-child {
 
 	margin-right: 6.4375em;
+	margin-left: 0;
 }
 
 .top-links ul li:first-child {
@@ -124,8 +132,11 @@ color: #202020;
 .top-links {
 
 	/*margin-bottom: 200px;*/
-	margin-top: 2.125em;
-	    margin-left: 20.357142857143%;
+	top: 2.125em;
+	position: absolute;
+	left: 19.722222222222%;
+
+	    /*margin-left: 20.357142857143%;*/
 
 }
 
@@ -135,11 +146,48 @@ ul li {
 	float: left;
 }
 
-.left-Q {
 
+.v-quote-lb {
+	font-weight: 700;
+	transform: rotate(270deg);
+	transform-origin: left top 0;
+	/*float: left;*/
 	position: absolute;
 	left: 4.4375em;
 	top: 26.1875em;
+}
+.v-quote-l {
+	font-weight: 400;
+	transform: rotate(270deg);
+	transform-origin: left top 0;
+	/*float: left;*/
+	position: absolute;
+	left: 5.7em;
+	top: 26.1875em;
+}
+/*.left-Q {
+
+	position: absolute;
+	
+}*/
+
+.v-quote-rb {
+	font-weight: 700;
+	transform: rotate(90deg);
+	transform-origin: right top 0;
+	/*float: left;*/
+	position: absolute;
+	right: 4.4375em;
+	top: 30.25em;
+}
+.v-quote-r {
+	font-weight: 400;
+	transform: rotate(90deg);
+	transform-origin: right top 0;
+	/*float: left;*/
+	position: absolute;
+	right: 5.7em;
+	top: 30.25em;
 }
 
 

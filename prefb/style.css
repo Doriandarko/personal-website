@@ -55,13 +55,14 @@ body {
   overflow: hidden;
       -webkit-font-smoothing: antialiased;
     /*text-rendering: optimizeLegibility;*/
+    color: #202020;
 }
 
 h2 {
 
 font-family: SourceSansPro-ExtraLight;
 font-size: 4em;
-color: #202020;
+
 line-height: 1.09375em;
 }
 
@@ -70,13 +71,13 @@ h1 {
   /* Product Designer: */
 font-family: SourceSansPro-Bold;
 font-size: 4em;
-color: #202020;
+/*color: #202020;*/
 line-height: 1.09375em;
 }
 
 p {
 font-size: 0.875em;
-color: #202020;
+/*color: #202020;*/
 line-height: 1.28571428571429em;
 
 }

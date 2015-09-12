@@ -51,7 +51,7 @@ padding-right: 0px;
 
 body {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif !important;
   overflow: hidden;
       -webkit-font-smoothing: antialiased;
     /*text-rendering: optimizeLegibility;*/
@@ -60,7 +60,7 @@ body {
 
 h2 {
 
-font-family: SourceSansPro-ExtraLight;
+font-weight: 200;
 font-size: 4em;
 
 line-height: 1.09375em;
@@ -69,7 +69,7 @@ line-height: 1.09375em;
 h1 {
 
   /* Product Designer: */
-font-family: SourceSansPro-Bold;
+font-weight: 700;
 font-size: 4em;
 /*color: #202020;*/
 line-height: 1.09375em;

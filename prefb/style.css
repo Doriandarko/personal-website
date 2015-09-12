@@ -265,6 +265,10 @@ body {
 
   .shape {
 
-    top:15%;
+    bottom:0vh;
+  }
+
+  body {
+        font-size: 90%;
   }
 }

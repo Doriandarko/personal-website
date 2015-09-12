@@ -93,14 +93,14 @@ text-decoration: none;
 
 h2:first-child {
 
-  margin-top: 121px;
+  margin-top: 116px;
 }
 
 .shape {
 
   position: absolute;
-  right: 209px;
-  top: 222px;
+  right: 224px;
+    top: 197px;
 }
 
 .navigation {margin-top: 25px}
@@ -118,7 +118,7 @@ h2:first-child {
 .footer {
 
   position: absolute;
-  bottom: 50px;
+  bottom: 60px;
 }
 
 ul {
@@ -133,12 +133,34 @@ ul li {
 
 ul.nav li:first-child {
 
-  margin-left: 91px;
+  margin-left: 104px;
 }
 
 ul.nav li {
 
   margin-left: 482px;
+}
+
+
+
+.footer ul li:first-child {
+
+      margin-left: 104px;
+}
+
+.footer ul li:nth-child(2) {
+
+  margin-left: 379px;
+}
+
+.footer ul li:nth-child(3) {
+
+  margin-left: 153px;
+}
+
+.footer ul li:nth-child(4) {
+
+  margin-left:162px;
 }
 
 .seg {
@@ -162,7 +184,7 @@ margin-bottom: 28px;
 .center-text {
 
   /*background-color: blue;*/
-  margin-left: 194px;
+  margin-left: 202px;
 }
 
 

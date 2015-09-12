@@ -107,6 +107,7 @@ h2:first-child {
     top: 12.3125em;
     width: 15.875em;
     height: auto;
+    z-index: -10;
 }
 
 .navigation {margin-top: 1.5625em}
@@ -261,15 +262,26 @@ body {
 
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 650px) {
 
   .shape {
 
-    bottom:0vh;
+    top:10vh;
   }
 
-  body {
+ h2:first-child {
+    margin-top: 1em; 
+
+  }
+
+  .footer {
+
+  position: absolute;
+  bottom: 2.75em;
+}
+
+/*  body {
 
         font-size: 90%;
-  }
+  }*/
 }

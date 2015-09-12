@@ -112,7 +112,7 @@ h2:first-child {
 
 .main-content {
 
-  width: 1240px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   /*background-color: yellow;*/

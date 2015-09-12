@@ -259,5 +259,12 @@ body {
 }
 
 
+}
 
+@media screen and (max-height: 800px) {
+
+  .shape {
+
+    top:15%;
+  }
 }

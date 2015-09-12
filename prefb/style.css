@@ -262,7 +262,7 @@ body {
 
 }
 
-@media screen and (max-height: 650px) {
+@media screen and (max-width: 1280px) {
 
   .shape {
 
